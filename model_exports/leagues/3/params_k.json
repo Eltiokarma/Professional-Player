@@ -1,0 +1,25 @@
+{
+  "constant_type": "k",
+  "league_id": 3,
+  "n_samples": 534,
+  "n_classes": 3,
+  "is_binary": false,
+  "accuracy": 0.3925233644859813,
+  "f1_macro": 0.37823976196069226,
+  "cv_f1_mean": 0.43330385932484006,
+  "feature_names": [
+    "nivel_equipo",
+    "nivel_rival",
+    "k_prev",
+    "nivel_rival_prev",
+    "k_rival_approx",
+    "is_home"
+  ],
+  "classes": [
+    -1,
+    0,
+    1
+  ],
+  "trained_at": "2026-01-01T17:30:12.265285",
+  "uses_discrete_levels": true
+}

@@ -1,0 +1,42 @@
+{
+  "model_type": "GradientBoosting + CalibratedClassifierCV",
+  "window": 5,
+  "train_seasons": "<=2023",
+  "test_seasons": ">2023",
+  "n_train": 59200,
+  "n_test": 27146,
+  "features": [
+    "gap_team",
+    "gap_opponent",
+    "level_team",
+    "level_opponent",
+    "level_diff",
+    "is_home",
+    "mu",
+    "pts_recent_team",
+    "pts_recent_opponent",
+    "gap_diff"
+  ],
+  "classes": [
+    "D",
+    "L",
+    "W"
+  ],
+  "test_accuracy": 0.6223384660723495,
+  "test_log_loss": 0.8130195607731108,
+  "baseline_log_loss": 1.0899278284704597,
+  "nogap_log_loss": 0.8867222772803929,
+  "mejora_vs_nogap_pct": 8.31181514163948,
+  "feature_importances": {
+    "gap_team": 0.0,
+    "gap_opponent": 0.0,
+    "level_team": 0.0,
+    "level_opponent": 0.0,
+    "level_diff": 0.0,
+    "is_home": 0.0,
+    "mu": 0.0,
+    "pts_recent_team": 0.0,
+    "pts_recent_opponent": 0.0,
+    "gap_diff": 0.0
+  }
+}

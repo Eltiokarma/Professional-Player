@@ -1,0 +1,133 @@
+{
+  "version": "v2",
+  "type": "binary (Win vs NoWin)",
+  "window": 5,
+  "features": [
+    "gap_team",
+    "gap_opponent",
+    "level_team",
+    "level_opponent",
+    "level_diff",
+    "is_home",
+    "mu",
+    "pts_recent_team",
+    "pts_recent_opponent",
+    "gap_diff",
+    "season_progress",
+    "season_ppg_team",
+    "season_ppg_opponent",
+    "is_international",
+    "season_match_num"
+  ],
+  "n_features": 15,
+  "train_seasons": "<=2023",
+  "n_train": 59200,
+  "n_test": 27146,
+  "best_model": "HistGBT",
+  "best_metrics": {
+    "accuracy": 0.8000442054077949,
+    "log_loss": 0.4259223858486747,
+    "auc_roc": 0.8735159430340869,
+    "brier": 0.1383425980116577,
+    "precision": 0.7419530230535015,
+    "recall": 0.6907268677870014,
+    "f1": 0.7154241375694663,
+    "time": 2.560035467147827
+  },
+  "baseline_metrics": {
+    "accuracy": 0.7474766079717086,
+    "log_loss": 0.5030302173611173,
+    "auc_roc": 0.8121621833625267,
+    "brier": 0.16736104642855545,
+    "precision": 0.6817362029577972,
+    "recall": 0.5740028345818992,
+    "f1": 0.6232481450948063,
+    "time": 1.5333147048950195
+  },
+  "mejora_vs_sin_gap_pct": 15.328667911233676,
+  "all_models": [
+    {
+      "name": "Marginal",
+      "accuracy": 0.6361158181684226,
+      "log_loss": 0.655622768145939,
+      "auc_roc": 0.5,
+      "brier": 0.2314736145148895,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "time": 0.0
+    },
+    {
+      "name": "Baseline (sin gap)",
+      "accuracy": 0.7474766079717086,
+      "log_loss": 0.5030302173611173,
+      "auc_roc": 0.8121621833625267,
+      "brier": 0.16736104642855545,
+      "precision": 0.6817362029577972,
+      "recall": 0.5740028345818992,
+      "f1": 0.6232481450948063,
+      "time": 1.5333147048950195
+    },
+    {
+      "name": "LogisticRegression",
+      "accuracy": 0.789398069697193,
+      "log_loss": 0.4441481115165958,
+      "auc_roc": 0.8622100325851694,
+      "brier": 0.14409554417905285,
+      "precision": 0.7315010570824524,
+      "recall": 0.6655193358979551,
+      "f1": 0.6969520275642724,
+      "time": 0.4474921226501465
+    },
+    {
+      "name": "RandomForest",
+      "accuracy": 0.7883297723421498,
+      "log_loss": 0.44156751679799194,
+      "auc_roc": 0.8620739151538038,
+      "brier": 0.14419623549604974,
+      "precision": 0.7345062429057889,
+      "recall": 0.655092123911723,
+      "f1": 0.6925299657534246,
+      "time": 6.132284641265869
+    },
+    {
+      "name": "HistGBT",
+      "accuracy": 0.8000442054077949,
+      "log_loss": 0.4259223858486747,
+      "auc_roc": 0.8735159430340869,
+      "brier": 0.1383425980116577,
+      "precision": 0.7419530230535015,
+      "recall": 0.6907268677870014,
+      "f1": 0.7154241375694663,
+      "time": 2.560035467147827
+    },
+    {
+      "name": "ExtraTrees",
+      "accuracy": 0.779230825904369,
+      "log_loss": 0.45549809402422115,
+      "auc_roc": 0.8513659763546586,
+      "brier": 0.14972246729979813,
+      "precision": 0.7233015289113691,
+      "recall": 0.6369710467706013,
+      "f1": 0.6773967809657103,
+      "time": 2.0279414653778076
+    }
+  ],
+  "feature_importances": {
+    "mu": 0.1722612792700407,
+    "gap_diff": 0.06890165896103154,
+    "level_diff": 0.04444129592006346,
+    "season_ppg_team": 0.040629260502537345,
+    "season_ppg_opponent": 0.031420818677987676,
+    "season_match_num": 0.013465724157631942,
+    "level_team": 0.011558029685657334,
+    "level_opponent": 0.005783300181776046,
+    "gap_team": 0.0035412110596366787,
+    "gap_opponent": 0.0006292067943331814,
+    "season_progress": 0.00025122904800919943,
+    "pts_recent_team": 0.00023280523839894763,
+    "is_international": 0.00018444891889363713,
+    "is_home": 6.910283971018339e-05,
+    "pts_recent_opponent": 2.326173359457062e-05
+  }
+}

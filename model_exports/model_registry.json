@@ -1,0 +1,1324 @@
+{
+  "last_updated": "2026-01-01T17:30:36.733311",
+  "global_models": {
+    "k": {
+      "f1_macro": 0.5334985007101491,
+      "accuracy": 0.5634470432823063,
+      "n_samples": 64344,
+      "n_classes": 3,
+      "trained_at": "2026-01-01T17:20:36.520236",
+      "path": "global/k.joblib"
+    },
+    "k_local": {
+      "f1_macro": 0.5204077174734422,
+      "accuracy": 0.5616393442622951,
+      "n_samples": 30499,
+      "n_classes": 3,
+      "trained_at": "2026-01-01T17:20:45.952759",
+      "path": "global/k_local.joblib"
+    },
+    "k_visita": {
+      "f1_macro": 0.5410777609278554,
+      "accuracy": 0.566288492706645,
+      "n_samples": 30849,
+      "n_classes": 3,
+      "trained_at": "2026-01-01T17:20:56.514373",
+      "path": "global/k_visita.joblib"
+    },
+    "k_goles_anotado": {
+      "f1_macro": 0.6713241401081769,
+      "accuracy": 0.7222783433056181,
+      "n_samples": 64344,
+      "n_classes": 2,
+      "trained_at": "2026-01-01T17:21:14.269088",
+      "path": "global/k_goles_anotado.joblib"
+    },
+    "k_goles_recibido": {
+      "f1_macro": 0.6369798508685542,
+      "accuracy": 0.6893309503457922,
+      "n_samples": 64344,
+      "n_classes": 2,
+      "trained_at": "2026-01-01T17:21:31.695160",
+      "path": "global/k_goles_recibido.joblib"
+    },
+    "k_goles_local_anotado": {
+      "f1_macro": 0.6628154757798329,
+      "accuracy": 0.7462295081967213,
+      "n_samples": 30499,
+      "n_classes": 2,
+      "trained_at": "2026-01-01T17:21:42.596925",
+      "path": "global/k_goles_local_anotado.joblib"
+    },
+    "k_goles_local_recibido": {
+      "f1_macro": 0.6382435659250478,
+      "accuracy": 0.6724590163934426,
+      "n_samples": 30499,
+      "n_classes": 2,
+      "trained_at": "2026-01-01T17:21:53.012711",
+      "path": "global/k_goles_local_recibido.joblib"
+    },
+    "k_goles_visita_anotado": {
+      "f1_macro": 0.6638945146504263,
+      "accuracy": 0.7042139384116693,
+      "n_samples": 30849,
+      "n_classes": 2,
+      "trained_at": "2026-01-01T17:22:03.396460",
+      "path": "global/k_goles_visita_anotado.joblib"
+    },
+    "k_goles_visita_recibido": {
+      "f1_macro": 0.6386091349939838,
+      "accuracy": 0.7142625607779579,
+      "n_samples": 30849,
+      "n_classes": 2,
+      "trained_at": "2026-01-01T17:22:13.950080",
+      "path": "global/k_goles_visita_recibido.joblib"
+    }
+  },
+  "league_models": {
+    "667": {
+      "k": {
+        "f1_macro": 0.5500229357497372,
+        "accuracy": 0.5860824742268042,
+        "n_samples": 19398,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:22:19.195366",
+        "path": "leagues/667/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.536357416620687,
+        "accuracy": 0.581002331002331,
+        "n_samples": 8579,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:22:23.120094",
+        "path": "leagues/667/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.5980927314316052,
+        "accuracy": 0.639344262295082,
+        "n_samples": 8844,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:22:26.977650",
+        "path": "leagues/667/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.7190388300799944,
+        "accuracy": 0.7889175257731958,
+        "n_samples": 19398,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:22:31.894156",
+        "path": "leagues/667/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6638445612358657,
+        "accuracy": 0.7195876288659794,
+        "n_samples": 19398,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:22:37.292756",
+        "path": "leagues/667/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.7380384768812874,
+        "accuracy": 0.8222610722610723,
+        "n_samples": 8579,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:22:41.161765",
+        "path": "leagues/667/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.6787091453279765,
+        "accuracy": 0.715034965034965,
+        "n_samples": 8579,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:22:44.978681",
+        "path": "leagues/667/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.7461683842457542,
+        "accuracy": 0.7823629169022046,
+        "n_samples": 8844,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:22:48.642238",
+        "path": "leagues/667/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.6551987474437628,
+        "accuracy": 0.7241379310344828,
+        "n_samples": 8844,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:22:52.389148",
+        "path": "leagues/667/k_goles_visita_recibido.joblib"
+      }
+    },
+    "45": {
+      "k": {
+        "f1_macro": 0.4796541015384252,
+        "accuracy": 0.553030303030303,
+        "n_samples": 5937,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:22:55.425489",
+        "path": "leagues/45/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.44769943583046556,
+        "accuracy": 0.4990059642147117,
+        "n_samples": 2514,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:22:58.007577",
+        "path": "leagues/45/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.5169459977750134,
+        "accuracy": 0.5855018587360595,
+        "n_samples": 2690,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:23:00.735930",
+        "path": "leagues/45/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.702291169451074,
+        "accuracy": 0.7525252525252525,
+        "n_samples": 5937,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:03.821638",
+        "path": "leagues/45/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6048403072690299,
+        "accuracy": 0.6961279461279462,
+        "n_samples": 5937,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:06.753590",
+        "path": "leagues/45/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.7278138528138528,
+        "accuracy": 0.7813121272365805,
+        "n_samples": 2514,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:10.463082",
+        "path": "leagues/45/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.6094594905014588,
+        "accuracy": 0.6640159045725647,
+        "n_samples": 2514,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:13.783360",
+        "path": "leagues/45/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.7271379525593009,
+        "accuracy": 0.758364312267658,
+        "n_samples": 2690,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:16.877255",
+        "path": "leagues/45/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.5491821872844358,
+        "accuracy": 0.6635687732342007,
+        "n_samples": 2690,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:20.618379",
+        "path": "leagues/45/k_goles_visita_recibido.joblib"
+      }
+    },
+    "281": {
+      "k": {
+        "f1_macro": 0.5499082079623693,
+        "accuracy": 0.5724907063197026,
+        "n_samples": 4035,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:23:24.534012",
+        "path": "leagues/281/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.46143485036012716,
+        "accuracy": 0.49875311720698257,
+        "n_samples": 2002,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:23:27.697125",
+        "path": "leagues/281/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.48143534302726537,
+        "accuracy": 0.5062344139650873,
+        "n_samples": 2004,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:23:30.821870",
+        "path": "leagues/281/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6193758036487671,
+        "accuracy": 0.6741016109045849,
+        "n_samples": 4035,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:34.719662",
+        "path": "leagues/281/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6257755898361805,
+        "accuracy": 0.6741016109045849,
+        "n_samples": 4035,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:38.545532",
+        "path": "leagues/281/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.5953887500589372,
+        "accuracy": 0.7331670822942643,
+        "n_samples": 2002,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:41.939661",
+        "path": "leagues/281/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.6733655592351244,
+        "accuracy": 0.6957605985037406,
+        "n_samples": 2002,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:45.353056",
+        "path": "leagues/281/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.615435491444936,
+        "accuracy": 0.6384039900249376,
+        "n_samples": 2004,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:48.870356",
+        "path": "leagues/281/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.6203465523401215,
+        "accuracy": 0.7356608478802993,
+        "n_samples": 2004,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:23:52.713109",
+        "path": "leagues/281/k_goles_visita_recibido.joblib"
+      }
+    },
+    "39": {
+      "k": {
+        "f1_macro": 0.5046616549349302,
+        "accuracy": 0.547683923705722,
+        "n_samples": 3669,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:23:56.938855",
+        "path": "leagues/39/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.509096594995835,
+        "accuracy": 0.5452054794520548,
+        "n_samples": 1821,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:24:00.773113",
+        "path": "leagues/39/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.48898604146906105,
+        "accuracy": 0.5232876712328767,
+        "n_samples": 1821,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:24:04.512713",
+        "path": "leagues/39/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6484674329501916,
+        "accuracy": 0.7111716621253406,
+        "n_samples": 3669,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:08.783367",
+        "path": "leagues/39/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.5974982106480207,
+        "accuracy": 0.6607629427792916,
+        "n_samples": 3669,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:13.114650",
+        "path": "leagues/39/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.6573637523863768,
+        "accuracy": 0.7561643835616438,
+        "n_samples": 1821,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:17.194248",
+        "path": "leagues/39/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.6112024814868469,
+        "accuracy": 0.6575342465753424,
+        "n_samples": 1821,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:21.226898",
+        "path": "leagues/39/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.5818802026321819,
+        "accuracy": 0.6301369863013698,
+        "n_samples": 1821,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:25.551643",
+        "path": "leagues/39/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.614522344919588,
+        "accuracy": 0.6876712328767123,
+        "n_samples": 1821,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:29.955158",
+        "path": "leagues/39/k_goles_visita_recibido.joblib"
+      }
+    },
+    "265": {
+      "k": {
+        "f1_macro": 0.4687588779541483,
+        "accuracy": 0.4991568296795953,
+        "n_samples": 2964,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:24:34.382119",
+        "path": "leagues/265/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.42375147010985165,
+        "accuracy": 0.46258503401360546,
+        "n_samples": 1470,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:24:38.801126",
+        "path": "leagues/265/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.47866097366009636,
+        "accuracy": 0.511864406779661,
+        "n_samples": 1472,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:24:43.300324",
+        "path": "leagues/265/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.5892450552766576,
+        "accuracy": 0.6593591905564924,
+        "n_samples": 2964,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:47.702371",
+        "path": "leagues/265/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.5960050141704818,
+        "accuracy": 0.6627318718381113,
+        "n_samples": 2964,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:51.961525",
+        "path": "leagues/265/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.5707730812013349,
+        "accuracy": 0.7142857142857143,
+        "n_samples": 1470,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:55.901134",
+        "path": "leagues/265/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.595662523142026,
+        "accuracy": 0.6462585034013606,
+        "n_samples": 1470,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:24:59.554303",
+        "path": "leagues/265/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.562962962962963,
+        "accuracy": 0.6237288135593221,
+        "n_samples": 1472,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:02.904599",
+        "path": "leagues/265/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.5531937118086384,
+        "accuracy": 0.7050847457627119,
+        "n_samples": 1472,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:05.920348",
+        "path": "leagues/265/k_goles_visita_recibido.joblib"
+      }
+    },
+    "128": {
+      "k": {
+        "f1_macro": 0.5142758372014017,
+        "accuracy": 0.5231560891938251,
+        "n_samples": 2911,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:25:09.471914",
+        "path": "leagues/128/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.5403193899752303,
+        "accuracy": 0.5694444444444444,
+        "n_samples": 1436,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:25:12.773056",
+        "path": "leagues/128/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.455746488454657,
+        "accuracy": 0.4809688581314879,
+        "n_samples": 1442,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:25:15.826268",
+        "path": "leagues/128/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6042316964852176,
+        "accuracy": 0.6329331046312179,
+        "n_samples": 2911,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:19.317961",
+        "path": "leagues/128/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6163997517070143,
+        "accuracy": 0.6363636363636364,
+        "n_samples": 2911,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:22.916450",
+        "path": "leagues/128/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.6077527501309586,
+        "accuracy": 0.6840277777777778,
+        "n_samples": 1436,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:25.993461",
+        "path": "leagues/128/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.588345244639912,
+        "accuracy": 0.59375,
+        "n_samples": 1436,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:28.951905",
+        "path": "leagues/128/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.5883808095952023,
+        "accuracy": 0.6055363321799307,
+        "n_samples": 1442,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:32.071367",
+        "path": "leagues/128/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.6580160770392133,
+        "accuracy": 0.698961937716263,
+        "n_samples": 1442,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:35.153917",
+        "path": "leagues/128/k_goles_visita_recibido.joblib"
+      }
+    },
+    "242": {
+      "k": {
+        "f1_macro": 0.532970381707014,
+        "accuracy": 0.562874251497006,
+        "n_samples": 2501,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:25:38.540163",
+        "path": "leagues/242/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.4701621607036857,
+        "accuracy": 0.5140562248995983,
+        "n_samples": 1241,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:25:41.649548",
+        "path": "leagues/242/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.4706489528185662,
+        "accuracy": 0.49193548387096775,
+        "n_samples": 1237,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:25:44.620766",
+        "path": "leagues/242/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6281066715542523,
+        "accuracy": 0.6766467065868264,
+        "n_samples": 2501,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:47.986310",
+        "path": "leagues/242/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6501347456236966,
+        "accuracy": 0.7025948103792415,
+        "n_samples": 2501,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:51.782985",
+        "path": "leagues/242/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.5298181035925138,
+        "accuracy": 0.6827309236947792,
+        "n_samples": 1241,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:55.171328",
+        "path": "leagues/242/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.63437417072092,
+        "accuracy": 0.6666666666666666,
+        "n_samples": 1241,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:25:58.652806",
+        "path": "leagues/242/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.6094351508364246,
+        "accuracy": 0.6370967741935484,
+        "n_samples": 1237,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:01.646920",
+        "path": "leagues/242/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.6127141244023737,
+        "accuracy": 0.7379032258064516,
+        "n_samples": 1237,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:04.864802",
+        "path": "leagues/242/k_goles_visita_recibido.joblib"
+      }
+    },
+    "140": {
+      "k": {
+        "f1_macro": 0.477862273132654,
+        "accuracy": 0.4976958525345622,
+        "n_samples": 2170,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:26:08.937299",
+        "path": "leagues/140/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.5034161481397317,
+        "accuracy": 0.5395348837209303,
+        "n_samples": 1073,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:26:12.115467",
+        "path": "leagues/140/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.5465035376727357,
+        "accuracy": 0.5674418604651162,
+        "n_samples": 1073,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:26:15.163070",
+        "path": "leagues/140/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6401812397570616,
+        "accuracy": 0.7027649769585254,
+        "n_samples": 2170,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:18.303313",
+        "path": "leagues/140/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.5880398671096345,
+        "accuracy": 0.6497695852534562,
+        "n_samples": 2170,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:21.847124",
+        "path": "leagues/140/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.6534798534798535,
+        "accuracy": 0.7441860465116279,
+        "n_samples": 1073,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:25.001469",
+        "path": "leagues/140/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.6314285714285715,
+        "accuracy": 0.6651162790697674,
+        "n_samples": 1073,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:28.296987",
+        "path": "leagues/140/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.6148701903556331,
+        "accuracy": 0.6511627906976745,
+        "n_samples": 1073,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:31.388175",
+        "path": "leagues/140/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.6015835579514826,
+        "accuracy": 0.6930232558139535,
+        "n_samples": 1073,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:34.754578",
+        "path": "leagues/140/k_goles_visita_recibido.joblib"
+      }
+    },
+    "11": {
+      "k": {
+        "f1_macro": 0.5011554643738552,
+        "accuracy": 0.5234375,
+        "n_samples": 1916,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:26:38.663478",
+        "path": "leagues/11/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.4817524437777602,
+        "accuracy": 0.5028901734104047,
+        "n_samples": 864,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:26:41.482178",
+        "path": "leagues/11/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.5294685255230448,
+        "accuracy": 0.5418994413407822,
+        "n_samples": 895,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:26:44.308004",
+        "path": "leagues/11/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.5807622504537205,
+        "accuracy": 0.5989583333333334,
+        "n_samples": 1916,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:47.451237",
+        "path": "leagues/11/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6165846404418793,
+        "accuracy": 0.6328125,
+        "n_samples": 1916,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:50.439489",
+        "path": "leagues/11/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.6193552893514476,
+        "accuracy": 0.6358381502890174,
+        "n_samples": 864,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:53.207778",
+        "path": "leagues/11/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.5785554983702179,
+        "accuracy": 0.5895953757225434,
+        "n_samples": 864,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:56.042995",
+        "path": "leagues/11/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.6672435897435898,
+        "accuracy": 0.6759776536312849,
+        "n_samples": 895,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:26:59.088270",
+        "path": "leagues/11/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.6917064122946476,
+        "accuracy": 0.7094972067039106,
+        "n_samples": 895,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:02.635759",
+        "path": "leagues/11/k_goles_visita_recibido.joblib"
+      }
+    },
+    "135": {
+      "k": {
+        "f1_macro": 0.5399692392843077,
+        "accuracy": 0.5606796116504854,
+        "n_samples": 2057,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:27:06.452333",
+        "path": "leagues/135/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.5022317205389033,
+        "accuracy": 0.5049019607843137,
+        "n_samples": 1019,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:27:10.325512",
+        "path": "leagues/135/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.5279768527008578,
+        "accuracy": 0.5369458128078818,
+        "n_samples": 1012,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:27:13.885929",
+        "path": "leagues/135/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6836737650296972,
+        "accuracy": 0.7427184466019418,
+        "n_samples": 2057,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:17.665059",
+        "path": "leagues/135/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6775620478689015,
+        "accuracy": 0.720873786407767,
+        "n_samples": 2057,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:20.999529",
+        "path": "leagues/135/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.5854035854035854,
+        "accuracy": 0.6715686274509803,
+        "n_samples": 1019,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:23.959912",
+        "path": "leagues/135/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.6628997867803839,
+        "accuracy": 0.696078431372549,
+        "n_samples": 1019,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:26.970069",
+        "path": "leagues/135/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.6335246409613882,
+        "accuracy": 0.6699507389162561,
+        "n_samples": 1012,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:29.911585",
+        "path": "leagues/135/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.6727206922646662,
+        "accuracy": 0.7586206896551724,
+        "n_samples": 1012,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:32.772044",
+        "path": "leagues/135/k_goles_visita_recibido.joblib"
+      }
+    },
+    "13": {
+      "k": {
+        "f1_macro": 0.4992649796236903,
+        "accuracy": 0.5382513661202186,
+        "n_samples": 1828,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:27:36.481995",
+        "path": "leagues/13/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.43470378252986946,
+        "accuracy": 0.47928994082840237,
+        "n_samples": 844,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:27:39.466466",
+        "path": "leagues/13/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.4668987954373455,
+        "accuracy": 0.5057471264367817,
+        "n_samples": 868,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:27:42.459892",
+        "path": "leagues/13/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6548038229376257,
+        "accuracy": 0.6721311475409836,
+        "n_samples": 1828,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:45.725548",
+        "path": "leagues/13/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6232207128758853,
+        "accuracy": 0.6366120218579235,
+        "n_samples": 1828,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:49.096807",
+        "path": "leagues/13/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.5834482182395455,
+        "accuracy": 0.650887573964497,
+        "n_samples": 844,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:51.996919",
+        "path": "leagues/13/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.5833333333333334,
+        "accuracy": 0.5857988165680473,
+        "n_samples": 844,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:55.108988",
+        "path": "leagues/13/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.5496016405015632,
+        "accuracy": 0.5574712643678161,
+        "n_samples": 868,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:27:58.103950",
+        "path": "leagues/13/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.7102897102897103,
+        "accuracy": 0.7413793103448276,
+        "n_samples": 868,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:01.444526",
+        "path": "leagues/13/k_goles_visita_recibido.joblib"
+      }
+    },
+    "136": {
+      "k": {
+        "f1_macro": 0.46138601130369267,
+        "accuracy": 0.45938375350140054,
+        "n_samples": 1785,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:28:04.801727",
+        "path": "leagues/136/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.4841558441558442,
+        "accuracy": 0.49714285714285716,
+        "n_samples": 875,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:28:07.869750",
+        "path": "leagues/136/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.4276607518077335,
+        "accuracy": 0.4318181818181818,
+        "n_samples": 877,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:28:11.085646",
+        "path": "leagues/136/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.5701590092500574,
+        "accuracy": 0.6470588235294118,
+        "n_samples": 1785,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:14.664028",
+        "path": "leagues/136/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.5509766203018645,
+        "accuracy": 0.6190476190476191,
+        "n_samples": 1785,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:18.330137",
+        "path": "leagues/136/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.557633973710819,
+        "accuracy": 0.6571428571428571,
+        "n_samples": 875,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:21.277937",
+        "path": "leagues/136/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.56531268264173,
+        "accuracy": 0.6114285714285714,
+        "n_samples": 875,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:24.075841",
+        "path": "leagues/136/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.6297520661157024,
+        "accuracy": 0.6818181818181818,
+        "n_samples": 877,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:27.455576",
+        "path": "leagues/136/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.6226290615206993,
+        "accuracy": 0.7045454545454546,
+        "n_samples": 877,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:30.400152",
+        "path": "leagues/136/k_goles_visita_recibido.joblib"
+      }
+    },
+    "79": {
+      "k": {
+        "f1_macro": 0.543297612802771,
+        "accuracy": 0.5765765765765766,
+        "n_samples": 1664,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:28:33.863477",
+        "path": "leagues/79/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.5646576585861545,
+        "accuracy": 0.6036585365853658,
+        "n_samples": 819,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:28:36.710371",
+        "path": "leagues/79/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.5814990966454535,
+        "accuracy": 0.6097560975609756,
+        "n_samples": 819,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:28:39.510419",
+        "path": "leagues/79/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6783357579284259,
+        "accuracy": 0.7507507507507507,
+        "n_samples": 1664,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:42.473124",
+        "path": "leagues/79/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.7142625231910946,
+        "accuracy": 0.7777777777777778,
+        "n_samples": 1664,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:45.755868",
+        "path": "leagues/79/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.645638998682477,
+        "accuracy": 0.75,
+        "n_samples": 819,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:48.306167",
+        "path": "leagues/79/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.5791817961752602,
+        "accuracy": 0.676829268292683,
+        "n_samples": 819,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:50.892304",
+        "path": "leagues/79/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.5858585858585859,
+        "accuracy": 0.6341463414634146,
+        "n_samples": 819,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:53.851825",
+        "path": "leagues/79/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.631155303030303,
+        "accuracy": 0.7682926829268293,
+        "n_samples": 819,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:28:56.957036",
+        "path": "leagues/79/k_goles_visita_recibido.joblib"
+      }
+    },
+    "129": {
+      "k": {
+        "f1_macro": 0.5021319586211929,
+        "accuracy": 0.5084745762711864,
+        "n_samples": 1474,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:28:59.912328",
+        "path": "leagues/129/k.joblib"
+      },
+      "k_local": {
+        "f1_macro": 0.42060433368749806,
+        "accuracy": 0.43356643356643354,
+        "n_samples": 714,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:29:02.512027",
+        "path": "leagues/129/k_local.joblib"
+      },
+      "k_visita": {
+        "f1_macro": 0.48789349259674003,
+        "accuracy": 0.503448275862069,
+        "n_samples": 722,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:29:05.093401",
+        "path": "leagues/129/k_visita.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6083694083694083,
+        "accuracy": 0.6101694915254238,
+        "n_samples": 1474,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:08.652789",
+        "path": "leagues/129/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6329693840769293,
+        "accuracy": 0.6372881355932203,
+        "n_samples": 1474,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:11.803411",
+        "path": "leagues/129/k_goles_recibido.joblib"
+      },
+      "k_goles_local_anotado": {
+        "f1_macro": 0.6269374392552048,
+        "accuracy": 0.6433566433566433,
+        "n_samples": 714,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:14.660232",
+        "path": "leagues/129/k_goles_local_anotado.joblib"
+      },
+      "k_goles_local_recibido": {
+        "f1_macro": 0.5713302865005652,
+        "accuracy": 0.5734265734265734,
+        "n_samples": 714,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:17.708984",
+        "path": "leagues/129/k_goles_local_recibido.joblib"
+      },
+      "k_goles_visita_anotado": {
+        "f1_macro": 0.5789899566852301,
+        "accuracy": 0.5793103448275863,
+        "n_samples": 722,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:20.710167",
+        "path": "leagues/129/k_goles_visita_anotado.joblib"
+      },
+      "k_goles_visita_recibido": {
+        "f1_macro": 0.6609268707482994,
+        "accuracy": 0.696551724137931,
+        "n_samples": 722,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:24.004398",
+        "path": "leagues/129/k_goles_visita_recibido.joblib"
+      }
+    },
+    "10": {
+      "k": {
+        "f1_macro": 0.615801876306078,
+        "accuracy": 0.6702702702702703,
+        "n_samples": 923,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:29:26.862631",
+        "path": "leagues/10/k.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.7937975347495411,
+        "accuracy": 0.8162162162162162,
+        "n_samples": 923,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:29.740338",
+        "path": "leagues/10/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.766000505944852,
+        "accuracy": 0.7837837837837838,
+        "n_samples": 923,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:32.771890",
+        "path": "leagues/10/k_goles_recibido.joblib"
+      }
+    },
+    "143": {
+      "k": {
+        "f1_macro": 0.625446644133269,
+        "accuracy": 0.7311827956989247,
+        "n_samples": 927,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:29:36.222463",
+        "path": "leagues/143/k.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.750201450443191,
+        "accuracy": 0.7580645161290323,
+        "n_samples": 927,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:39.480503",
+        "path": "leagues/143/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6879597367402246,
+        "accuracy": 0.7204301075268817,
+        "n_samples": 927,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:42.218412",
+        "path": "leagues/143/k_goles_recibido.joblib"
+      }
+    },
+    "253": {
+      "k": {
+        "f1_macro": 0.4549730285841396,
+        "accuracy": 0.5252525252525253,
+        "n_samples": 989,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:29:45.687156",
+        "path": "leagues/253/k.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.5599999999999999,
+        "accuracy": 0.6767676767676768,
+        "n_samples": 989,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:48.619439",
+        "path": "leagues/253/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.5405284370801612,
+        "accuracy": 0.7121212121212122,
+        "n_samples": 989,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:51.453195",
+        "path": "leagues/253/k_goles_recibido.joblib"
+      }
+    },
+    "239": {
+      "k": {
+        "f1_macro": 0.45423474617585424,
+        "accuracy": 0.46835443037974683,
+        "n_samples": 786,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:29:54.303601",
+        "path": "leagues/239/k.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.5556966618287373,
+        "accuracy": 0.6075949367088608,
+        "n_samples": 786,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:57.154167",
+        "path": "leagues/239/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6560232220609579,
+        "accuracy": 0.6962025316455697,
+        "n_samples": 786,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:29:59.833999",
+        "path": "leagues/239/k_goles_recibido.joblib"
+      }
+    },
+    "71": {
+      "k": {
+        "f1_macro": 0.5052065191226655,
+        "accuracy": 0.5298013245033113,
+        "n_samples": 754,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:30:02.776897",
+        "path": "leagues/71/k.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6042976939203355,
+        "accuracy": 0.6688741721854304,
+        "n_samples": 754,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:30:06.300427",
+        "path": "leagues/71/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.5520662847790507,
+        "accuracy": 0.6158940397350994,
+        "n_samples": 754,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:30:09.067847",
+        "path": "leagues/71/k_goles_recibido.joblib"
+      }
+    },
+    "3": {
+      "k": {
+        "f1_macro": 0.37823976196069226,
+        "accuracy": 0.3925233644859813,
+        "n_samples": 534,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:30:12.265285",
+        "path": "leagues/3/k.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6632145395471621,
+        "accuracy": 0.7102803738317757,
+        "n_samples": 534,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:30:15.737903",
+        "path": "leagues/3/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.6215738284703802,
+        "accuracy": 0.7009345794392523,
+        "n_samples": 534,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:30:18.808387",
+        "path": "leagues/3/k_goles_recibido.joblib"
+      }
+    },
+    "2": {
+      "k": {
+        "f1_macro": 0.5069112174375333,
+        "accuracy": 0.5619047619047619,
+        "n_samples": 525,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:30:21.996079",
+        "path": "leagues/2/k.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.685359589041096,
+        "accuracy": 0.7333333333333333,
+        "n_samples": 525,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:30:24.868227",
+        "path": "leagues/2/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.5910418695228822,
+        "accuracy": 0.6952380952380952,
+        "n_samples": 525,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:30:27.480707",
+        "path": "leagues/2/k_goles_recibido.joblib"
+      }
+    },
+    "141": {
+      "k": {
+        "f1_macro": 0.4354767184035477,
+        "accuracy": 0.4727272727272727,
+        "n_samples": 548,
+        "n_classes": 3,
+        "trained_at": "2026-01-01T17:30:30.498829",
+        "path": "leagues/141/k.joblib"
+      },
+      "k_goles_anotado": {
+        "f1_macro": 0.6984649122807017,
+        "accuracy": 0.7272727272727273,
+        "n_samples": 548,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:30:33.495328",
+        "path": "leagues/141/k_goles_anotado.joblib"
+      },
+      "k_goles_recibido": {
+        "f1_macro": 0.649024024024024,
+        "accuracy": 0.6909090909090909,
+        "n_samples": 548,
+        "n_classes": 2,
+        "trained_at": "2026-01-01T17:30:36.149206",
+        "path": "leagues/141/k_goles_recibido.joblib"
+      }
+    }
+  },
+  "league_info": {}
+}

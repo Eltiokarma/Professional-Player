@@ -1,0 +1,23 @@
+{
+  "constant_type": "k_goles_local_anotado",
+  "league_id": 45,
+  "n_samples": 2514,
+  "n_classes": 2,
+  "is_binary": true,
+  "accuracy": 0.7813121272365805,
+  "f1_macro": 0.7278138528138528,
+  "cv_f1_mean": 0.6971989847796034,
+  "feature_names": [
+    "nivel_equipo",
+    "nivel_rival",
+    "k_prev",
+    "nivel_rival_prev",
+    "k_rival_approx"
+  ],
+  "classes": [
+    0,
+    1
+  ],
+  "trained_at": "2026-01-01T17:23:10.463082",
+  "uses_discrete_levels": true
+}

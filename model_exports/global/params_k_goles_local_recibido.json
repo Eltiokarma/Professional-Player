@@ -1,0 +1,23 @@
+{
+  "constant_type": "k_goles_local_recibido",
+  "league_id": null,
+  "n_samples": 30499,
+  "n_classes": 2,
+  "is_binary": true,
+  "accuracy": 0.6724590163934426,
+  "f1_macro": 0.6382435659250478,
+  "cv_f1_mean": 0.6236222139120984,
+  "feature_names": [
+    "nivel_equipo",
+    "nivel_rival",
+    "k_prev",
+    "nivel_rival_prev",
+    "k_rival_approx"
+  ],
+  "classes": [
+    0,
+    1
+  ],
+  "trained_at": "2026-01-01T17:21:53.012711",
+  "uses_discrete_levels": true
+}

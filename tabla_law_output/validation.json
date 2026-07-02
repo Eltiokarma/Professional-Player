@@ -1,0 +1,138 @@
+{
+  "K": 1.5481747016795806,
+  "mu_coefficients": {
+    "intercept": 1.11021988575418,
+    "level_team": 0.686348940017373,
+    "level_opponent": -0.6694990882670679,
+    "is_home": 0.42206245961712685
+  },
+  "n_total_matches": 73045,
+  "signal_strength": "NONE",
+  "correlation_d_norm_vs_win": 0.005609806589207658,
+  "correlation_d_norm_vs_points": 0.005863137766323187,
+  "chi_squared_pvalue": 0.1823223348099119,
+  "global_win_rate": 0.36190019850776917,
+  "unlikely_win": {
+    "n": 6439,
+    "win_rate": 0.3582854480509396
+  },
+  "rebound": {
+    "n": 6251,
+    "win_rate": 0.350343944968805
+  },
+  "bins": [
+    {
+      "d_norm_min": -2.477104170200546,
+      "d_norm_max": -0.6735328464362612,
+      "d_norm_label": "[-2.48, -0.67)",
+      "n_matches": 9131,
+      "wins": 3238,
+      "draws": 2494,
+      "losses": 3399,
+      "win_rate": 0.354616142810207,
+      "draw_rate": 0.273135472565984,
+      "loss_rate": 0.372248384623809,
+      "avg_points": 1.336983900996605,
+      "win_rate_diff_vs_baseline": -0.007284055697562186
+    },
+    {
+      "d_norm_min": -0.6735328464362612,
+      "d_norm_max": -0.3996078899813579,
+      "d_norm_label": "[-0.67, -0.40)",
+      "n_matches": 9130,
+      "wins": 3283,
+      "draws": 2493,
+      "losses": 3354,
+      "win_rate": 0.35958378970427163,
+      "draw_rate": 0.27305585980284774,
+      "loss_rate": 0.3673603504928806,
+      "avg_points": 1.3518072289156626,
+      "win_rate_diff_vs_baseline": -0.0023164088034975383
+    },
+    {
+      "d_norm_min": -0.3996078899813579,
+      "d_norm_max": -0.19536233297006225,
+      "d_norm_label": "[-0.40, -0.20)",
+      "n_matches": 9131,
+      "wins": 3253,
+      "draws": 2534,
+      "losses": 3344,
+      "win_rate": 0.35625889825867924,
+      "draw_rate": 0.27751615376190997,
+      "loss_rate": 0.3662249479794108,
+      "avg_points": 1.3462928485379477,
+      "win_rate_diff_vs_baseline": -0.005641300249089931
+    },
+    {
+      "d_norm_min": -0.19536233297006225,
+      "d_norm_max": -0.011501456022390779,
+      "d_norm_label": "[-0.20, -0.01)",
+      "n_matches": 9130,
+      "wins": 3325,
+      "draws": 2507,
+      "losses": 3298,
+      "win_rate": 0.36418400876232204,
+      "draw_rate": 0.2745892661555312,
+      "loss_rate": 0.36122672508214676,
+      "avg_points": 1.3671412924424973,
+      "win_rate_diff_vs_baseline": 0.002283810254552876
+    },
+    {
+      "d_norm_min": -0.011501456022390779,
+      "d_norm_max": 0.1753590369537364,
+      "d_norm_label": "[-0.01, +0.18)",
+      "n_matches": 9131,
+      "wins": 3329,
+      "draws": 2508,
+      "losses": 3294,
+      "win_rate": 0.36458219253093854,
+      "draw_rate": 0.2746687109845581,
+      "loss_rate": 0.3607490964845033,
+      "avg_points": 1.3684152885773737,
+      "win_rate_diff_vs_baseline": 0.002681994023169376
+    },
+    {
+      "d_norm_min": 0.1753590369537364,
+      "d_norm_max": 0.3840808023131478,
+      "d_norm_label": "[+0.18, +0.38)",
+      "n_matches": 9130,
+      "wins": 3405,
+      "draws": 2460,
+      "losses": 3265,
+      "win_rate": 0.3729463307776561,
+      "draw_rate": 0.26944140197152244,
+      "loss_rate": 0.35761226725082146,
+      "avg_points": 1.3882803943044908,
+      "win_rate_diff_vs_baseline": 0.011046132269886932
+    },
+    {
+      "d_norm_min": 0.3840808023131478,
+      "d_norm_max": 0.6716574173360299,
+      "d_norm_label": "[+0.38, +0.67)",
+      "n_matches": 9131,
+      "wins": 3275,
+      "draws": 2581,
+      "losses": 3275,
+      "win_rate": 0.3586682729164385,
+      "draw_rate": 0.28266345416712296,
+      "loss_rate": 0.3586682729164385,
+      "avg_points": 1.3586682729164385,
+      "win_rate_diff_vs_baseline": -0.0032319255913306755
+    },
+    {
+      "d_norm_min": 0.6716574173360299,
+      "d_norm_max": 3.4694597923154205,
+      "d_norm_label": "[+0.67, +3.47)",
+      "n_matches": 9131,
+      "wins": 3327,
+      "draws": 2460,
+      "losses": 3344,
+      "win_rate": 0.36436315847114226,
+      "draw_rate": 0.26941189354944695,
+      "loss_rate": 0.3662249479794108,
+      "avg_points": 1.3625013689628738,
+      "win_rate_diff_vs_baseline": 0.0024629599633730903
+    }
+  ],
+  "timestamp": "2026-02-06T00:43:42.056212"
+}

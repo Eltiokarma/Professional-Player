@@ -1,0 +1,8255 @@
+{
+  "home_team": "Atlas",
+  "away_team": "Team 18255",
+  "match_info": "Test CLI",
+  "phase": "SAD · Fase 1 · Extracción sin veredicto",
+  "home_constants": [
+    {
+      "name": "k general",
+      "value": -4.47,
+      "techo": 19.86,
+      "pctTecho": 22,
+      "burstZone": false,
+      "burstMin": 6.46,
+      "burstMedian": 8.86,
+      "inertia": "↘ BAJANDO",
+      "accel": "-2.10",
+      "totalBursts": 17,
+      "burstFreqMedian": 7,
+      "sinceLastBurst": 10,
+      "burstAmplitude": {
+        "baja": 11,
+        "media": 6,
+        "alta": 0,
+        "extrema": 0
+      },
+      "burstBands": [
+        {
+          "label": "6-10",
+          "key": "baja"
+        },
+        {
+          "label": "10-19",
+          "key": "media"
+        },
+        {
+          "label": "19-32",
+          "key": "alta"
+        },
+        {
+          "label": "32+",
+          "key": "extrema"
+        }
+      ],
+      "ml": "flat",
+      "peaks": {
+        "pos": [
+          {
+            "val": 13.81,
+            "date": "2021-09-25",
+            "rival": "Leon",
+            "res": "2-0"
+          },
+          {
+            "val": 13.16,
+            "date": "2023-04-22",
+            "rival": "Necaxa",
+            "res": "3-1"
+          },
+          {
+            "val": 12.16,
+            "date": "2021-05-13",
+            "rival": "Puebla",
+            "res": "1-0"
+          }
+        ],
+        "neg": [
+          {
+            "val": -19.86,
+            "date": "2024-09-28",
+            "rival": "Toluca",
+            "res": "1-4"
+          },
+          {
+            "val": -17.56,
+            "date": "2023-11-05",
+            "rival": "U.N.A.M. - Pumas",
+            "res": "0-3"
+          },
+          {
+            "val": -14.79,
+            "date": "2025-08-10",
+            "rival": "Pachuca",
+            "res": "0-3"
+          }
+        ],
+        "zero": [
+          {
+            "val": 0.0,
+            "date": "2025-11-01",
+            "rival": "Toluca",
+            "res": "0-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-01-04",
+            "rival": "Guadalajara Chivas",
+            "res": "0-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-02-08",
+            "rival": "U.N.A.M. - Pumas",
+            "res": "2-2"
+          }
+        ]
+      },
+      "ecg": [
+        {
+          "date": "20-07-26",
+          "val": -3.71,
+          "rival": "Club Tijuana",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "20-08-04",
+          "val": -6.35,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-10",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-08-14",
+          "val": -2.25,
+          "rival": "Toluca",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-17",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "20-08-23",
+          "val": 1.95,
+          "rival": "Club Queretaro",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-01",
+          "val": -3.34,
+          "rival": "Leon",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-09-06",
+          "val": 2.98,
+          "rival": "Cruz Azul",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-09",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-13",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-20",
+          "val": -2.88,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-26",
+          "val": 2.67,
+          "rival": "FC Juarez",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-10-04",
+          "val": -2.43,
+          "rival": "Necaxa",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-18",
+          "val": -5.56,
+          "rival": "Guadalajara Chivas",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "20-10-25",
+          "val": -8.39,
+          "rival": "Club America",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-31",
+          "val": -10.68,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-11-08",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-01-09",
+          "val": -5.93,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-01-18",
+          "val": -7.88,
+          "rival": "Club Queretaro",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-01-24",
+          "val": -13.57,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-01-31",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-02-06",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-02-16",
+          "val": 1.87,
+          "rival": "Pachuca",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-02-21",
+          "val": -7.0,
+          "rival": "Club America",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-02-27",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-03-02",
+          "val": 3.95,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "21-03-06",
+          "val": 6.89,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-03-13",
+          "val": 10.34,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-03-21",
+          "val": -3.51,
+          "rival": "Cruz Azul",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "21-04-03",
+          "val": 1.78,
+          "rival": "Club Tijuana",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-11",
+          "val": -5.85,
+          "rival": "Leon",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "21-04-17",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-25",
+          "val": -2.78,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-05-01",
+          "val": 6.8,
+          "rival": "Necaxa",
+          "res": "5-1",
+          "lvl": null
+        },
+        {
+          "date": "21-05-09",
+          "val": 9.21,
+          "rival": "Tigres UANL",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-05-13",
+          "val": 12.16,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-05-15",
+          "val": -2.98,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-07-25",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-01",
+          "val": 2.4,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-10",
+          "val": 6.13,
+          "rival": "Pachuca",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-15",
+          "val": -3.9,
+          "rival": "Club America",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-08-19",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-08-21",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-29",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-09-11",
+          "val": 2.48,
+          "rival": "Monterrey",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "21-09-18",
+          "val": 8.86,
+          "rival": "Necaxa",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-25",
+          "val": 13.81,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-29",
+          "val": -2.65,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-10-03",
+          "val": 2.68,
+          "rival": "Guadalajara Chivas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-10-16",
+          "val": -2.55,
+          "rival": "Mazatlán",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-10-20",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-10-25",
+          "val": 7.75,
+          "rival": "Atletico San Luis",
+          "res": "6-2",
+          "lvl": null
+        },
+        {
+          "date": "21-10-29",
+          "val": -3.38,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-11-05",
+          "val": 3.34,
+          "rival": "Club Queretaro",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-11-25",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-11-28",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-03",
+          "val": 3.57,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-12-06",
+          "val": -2.83,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-10",
+          "val": -5.71,
+          "rival": "Leon",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "21-12-13",
+          "val": 2.74,
+          "rival": "Leon",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-01-15",
+          "val": 3.74,
+          "rival": "Atletico San Luis",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-01-20",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-01-23",
+          "val": 6.44,
+          "rival": "Club America",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "22-02-07",
+          "val": 8.22,
+          "rival": "Santos Laguna",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-02-12",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-02-21",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-02-26",
+          "val": -4.02,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "22-03-03",
+          "val": -6.98,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-03-05",
+          "val": 2.93,
+          "rival": "Club Queretaro",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-03-12",
+          "val": 5.49,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-03-21",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-03",
+          "val": -2.37,
+          "rival": "Cruz Azul",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-08",
+          "val": 2.25,
+          "rival": "Necaxa",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-15",
+          "val": -1.81,
+          "rival": "Mazatlán",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-04-21",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-04-24",
+          "val": 4.55,
+          "rival": "Toluca",
+          "res": "4-2",
+          "lvl": null
+        },
+        {
+          "date": "22-05-01",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-13",
+          "val": 4.02,
+          "rival": "Guadalajara Chivas",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-15",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-19",
+          "val": 6.73,
+          "rival": "Tigres UANL",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "22-05-22",
+          "val": -5.65,
+          "rival": "Tigres UANL",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "22-05-27",
+          "val": 6.25,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "22-05-30",
+          "val": -3.35,
+          "rival": "Pachuca",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-03",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-07-10",
+          "val": -2.25,
+          "rival": "Toluca",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "22-07-16",
+          "val": 2.18,
+          "rival": "Cruz Azul",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-24",
+          "val": -6.47,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-27",
+          "val": -8.62,
+          "rival": "Club Tijuana",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-08-01",
+          "val": -10.92,
+          "rival": "Santos Laguna",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-05",
+          "val": 2.95,
+          "rival": "Club Queretaro",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-14",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-17",
+          "val": -1.59,
+          "rival": "FC Juarez",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-21",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-26",
+          "val": -6.2,
+          "rival": "Pachuca",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "22-08-29",
+          "val": -9.56,
+          "rival": "Leon",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "22-09-04",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-09-08",
+          "val": -2.34,
+          "rival": "Mazatlán",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-09-11",
+          "val": -6.18,
+          "rival": "Atletico San Luis",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "22-09-18",
+          "val": -13.35,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "22-10-02",
+          "val": 1.86,
+          "rival": "Necaxa",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-01-13",
+          "val": 3.49,
+          "rival": "Mazatlán",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-01-22",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "23-01-27",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-02",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-02-05",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-10",
+          "val": -6.62,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-19",
+          "val": -9.92,
+          "rival": "Tigres UANL",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-02-23",
+          "val": -12.18,
+          "rival": "Cruz Azul",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-02-26",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-03-04",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-03-11",
+          "val": -3.26,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-03-18",
+          "val": 10.36,
+          "rival": "Puebla",
+          "res": "4-0",
+          "lvl": null
+        },
+        {
+          "date": "23-04-02",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "23-04-10",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-15",
+          "val": 8.82,
+          "rival": "Pachuca",
+          "res": "4-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-22",
+          "val": 13.16,
+          "rival": "Necaxa",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-30",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-05-06",
+          "val": 2.83,
+          "rival": "Cruz Azul",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-05-12",
+          "val": 6.08,
+          "rival": "Guadalajara Chivas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-05-15",
+          "val": -3.4,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-07-02",
+          "val": 3.73,
+          "rival": "Cruz Azul",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-07-10",
+          "val": -3.4,
+          "rival": "Monterrey",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-07-14",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-08-21",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-08-26",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-08-31",
+          "val": 3.11,
+          "rival": "Club Queretaro",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-09-04",
+          "val": -6.77,
+          "rival": "Atletico San Luis",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-09-18",
+          "val": 5.87,
+          "rival": "Tigres UANL",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-09-23",
+          "val": 9.02,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-09-29",
+          "val": -2.43,
+          "rival": "Puebla",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "23-10-08",
+          "val": -9.48,
+          "rival": "Guadalajara Chivas",
+          "res": "1-4",
+          "lvl": null
+        },
+        {
+          "date": "23-10-21",
+          "val": -13.18,
+          "rival": "Mazatlán",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "23-10-25",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-10-30",
+          "val": -4.05,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-11-02",
+          "val": -8.76,
+          "rival": "Pachuca",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-11-05",
+          "val": -17.56,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "23-11-11",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-06",
+          "val": -2.45,
+          "rival": "Santos Laguna",
+          "res": "2-3",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-01-15",
+          "val": -4.35,
+          "rival": "Necaxa",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "24-01-21",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-29",
+          "val": 1.24,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-02-01",
+          "val": -2.35,
+          "rival": "Pachuca",
+          "res": "3-4",
+          "lvl": null
+        },
+        {
+          "date": "24-02-05",
+          "val": 6.15,
+          "rival": "Santos Laguna",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-10",
+          "val": -3.78,
+          "rival": "Mazatlán",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "24-02-15",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-18",
+          "val": -2.05,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-02-25",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "24-03-03",
+          "val": -13.73,
+          "rival": "Club America",
+          "res": "1-5",
+          "lvl": null
+        },
+        {
+          "date": "24-03-09",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "24-03-17",
+          "val": -3.72,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "24-03-24",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.8
+        },
+        {
+          "date": "24-03-25",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.8
+        },
+        {
+          "date": "24-03-31",
+          "val": -2.68,
+          "rival": "Club Queretaro",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "24-04-07",
+          "val": -12.27,
+          "rival": "Toluca",
+          "res": "1-4",
+          "lvl": null
+        },
+        {
+          "date": "24-04-15",
+          "val": 1.93,
+          "rival": "Atletico San Luis",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-04-22",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "24-04-28",
+          "val": -3.34,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-07-06",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "2-2",
+          "lvl": 2.27
+        },
+        {
+          "date": "24-07-13",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-07-17",
+          "val": 1.02,
+          "rival": "Santos Laguna",
+          "res": "1-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-07-20",
+          "val": 2.7,
+          "rival": "Puebla",
+          "res": "2-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-08-25",
+          "val": 5.59,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-08-31",
+          "val": -2.19,
+          "rival": "Atletico San Luis",
+          "res": "1-2",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-14",
+          "val": 3.29,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-18",
+          "val": -8.07,
+          "rival": "Club America",
+          "res": "0-3",
+          "lvl": 3.21
+        },
+        {
+          "date": "24-09-21",
+          "val": -10.16,
+          "rival": "Club Queretaro",
+          "res": "0-1",
+          "lvl": 1.57
+        },
+        {
+          "date": "24-09-28",
+          "val": -19.86,
+          "rival": "Toluca",
+          "res": "1-4",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-10-06",
+          "val": 3.72,
+          "rival": "Guadalajara Chivas",
+          "res": "3-2",
+          "lvl": 2.8
+        },
+        {
+          "date": "24-10-19",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-0",
+          "lvl": 1.5
+        },
+        {
+          "date": "24-10-24",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "0-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-10-27",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-03",
+          "val": -12.14,
+          "rival": "Monterrey",
+          "res": "0-4",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-07",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "2-2",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-10",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-11-22",
+          "val": 2.95,
+          "rival": "Guadalajara Chivas",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-11-25",
+          "val": -8.6,
+          "rival": "Club Tijuana",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "24-12-23",
+          "val": -10.65,
+          "rival": "Necaxa",
+          "res": "1-2",
+          "lvl": 2.05
+        },
+        {
+          "date": "24-12-28",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.68
+        },
+        {
+          "date": "25-01-03",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "25-01-12",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-01-19",
+          "val": -2.42,
+          "rival": "Leon",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "25-01-26",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-01-30",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-02-02",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-02-09",
+          "val": -3.23,
+          "rival": "Tigres UANL",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "25-02-15",
+          "val": 1.67,
+          "rival": "Puebla",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-02-19",
+          "val": -9.83,
+          "rival": "Necaxa",
+          "res": "0-4",
+          "lvl": null
+        },
+        {
+          "date": "25-02-23",
+          "val": -12.5,
+          "rival": "Santos Laguna",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-03-03",
+          "val": 3.9,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-03-10",
+          "val": 6.5,
+          "rival": "Club Tijuana",
+          "res": "4-3",
+          "lvl": null
+        },
+        {
+          "date": "25-03-16",
+          "val": -7.47,
+          "rival": "Club America",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "25-03-29",
+          "val": -9.76,
+          "rival": "Mazatlán",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-05",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-04-13",
+          "val": -3.34,
+          "rival": "Toluca",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-17",
+          "val": 2.81,
+          "rival": "Club Queretaro",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "25-04-20",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-07-12",
+          "val": 1.33,
+          "rival": "Puebla",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-07-20",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-07-27",
+          "val": -5.7,
+          "rival": "Monterrey",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-10",
+          "val": -14.79,
+          "rival": "Pachuca",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-17",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-25",
+          "val": -6.42,
+          "rival": "Club America",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "25-08-31",
+          "val": -8.85,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "25-09-14",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "25-09-20",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-09-25",
+          "val": -6.5,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-09-27",
+          "val": 1.87,
+          "rival": "Necaxa",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-10-04",
+          "val": 6.58,
+          "rival": "FC Juarez",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-10-18",
+          "val": -4.79,
+          "rival": "Atletico San Luis",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-10-23",
+          "val": 2.6,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "25-10-26",
+          "val": -8.95,
+          "rival": "Guadalajara Chivas",
+          "res": "1-4",
+          "lvl": null
+        },
+        {
+          "date": "25-11-01",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-11-08",
+          "val": -4.5,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-12-23",
+          "val": 1.9,
+          "rival": "Tepatitlán",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-12-27",
+          "val": 5.63,
+          "rival": "Leones Negros UDG",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-12-30",
+          "val": 10.53,
+          "rival": "Necaxa",
+          "res": "5-3",
+          "lvl": null
+        },
+        {
+          "date": "26-01-04",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-05",
+          "val": -3.05,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "26-01-10",
+          "val": 1.53,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-14",
+          "val": -5.6,
+          "rival": "Cruz Azul",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "26-01-17",
+          "val": 2.92,
+          "rival": "Necaxa",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-31",
+          "val": 3.94,
+          "rival": "Mazatlán",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-02-08",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "26-02-14",
+          "val": -4.5,
+          "rival": "Pachuca",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "26-02-21",
+          "val": 2.4,
+          "rival": "Atletico San Luis",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "26-02-28",
+          "val": -4.47,
+          "rival": "FC Juarez",
+          "res": "1-3",
+          "lvl": null
+        }
+      ]
+    },
+    {
+      "name": "k local",
+      "value": 2.4,
+      "techo": 22.19,
+      "pctTecho": 11,
+      "burstZone": false,
+      "burstMin": 7.34,
+      "burstMedian": 9.18,
+      "inertia": "↗ SUBIENDO",
+      "accel": "+1.36",
+      "totalBursts": 11,
+      "burstFreqMedian": 4,
+      "sinceLastBurst": 6,
+      "burstAmplitude": {
+        "baja": 7,
+        "media": 4,
+        "alta": 0,
+        "extrema": 0
+      },
+      "burstBands": [
+        {
+          "label": "7-11",
+          "key": "baja"
+        },
+        {
+          "label": "11-22",
+          "key": "media"
+        },
+        {
+          "label": "22-37",
+          "key": "alta"
+        },
+        {
+          "label": "37+",
+          "key": "extrema"
+        }
+      ],
+      "ml": "flat",
+      "peaks": {
+        "pos": [
+          {
+            "val": 15.81,
+            "date": "2023-07-02",
+            "rival": "Cruz Azul",
+            "res": "2-0"
+          },
+          {
+            "val": 15.17,
+            "date": "2022-07-16",
+            "rival": "Cruz Azul",
+            "res": "3-2"
+          },
+          {
+            "val": 10.53,
+            "date": "2025-12-30",
+            "rival": "Necaxa",
+            "res": "5-3"
+          }
+        ],
+        "neg": [
+          {
+            "val": -22.19,
+            "date": "2024-03-31",
+            "rival": "Club Queretaro",
+            "res": "2-3"
+          },
+          {
+            "val": -19.21,
+            "date": "2021-01-24",
+            "rival": "Tigres UANL",
+            "res": "0-2"
+          },
+          {
+            "val": -15.51,
+            "date": "2025-08-25",
+            "rival": "Club America",
+            "res": "2-4"
+          }
+        ],
+        "zero": [
+          {
+            "val": 0.0,
+            "date": "2025-11-01",
+            "rival": "Toluca",
+            "res": "0-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-01-04",
+            "rival": "Guadalajara Chivas",
+            "res": "0-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-02-08",
+            "rival": "U.N.A.M. - Pumas",
+            "res": "2-2"
+          }
+        ]
+      },
+      "ecg": [
+        {
+          "date": "20-08-04",
+          "val": -2.63,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-14",
+          "val": -4.88,
+          "rival": "Toluca",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-23",
+          "val": 1.95,
+          "rival": "Club Queretaro",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-06",
+          "val": 4.93,
+          "rival": "Cruz Azul",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-13",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-20",
+          "val": -2.88,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-04",
+          "val": -5.31,
+          "rival": "Necaxa",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-31",
+          "val": -7.6,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-01-09",
+          "val": -13.53,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-01-24",
+          "val": -19.21,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-02-06",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-02-21",
+          "val": -7.0,
+          "rival": "Club America",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-03-02",
+          "val": 3.95,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "21-03-06",
+          "val": 6.89,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-03",
+          "val": 8.67,
+          "rival": "Club Tijuana",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-11",
+          "val": -5.85,
+          "rival": "Leon",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "21-04-25",
+          "val": -8.63,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-05-09",
+          "val": 2.41,
+          "rival": "Tigres UANL",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-05-13",
+          "val": 5.36,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-01",
+          "val": 7.76,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-15",
+          "val": -3.9,
+          "rival": "Club America",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-08-21",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-11",
+          "val": 2.48,
+          "rival": "Monterrey",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "21-09-25",
+          "val": 7.43,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-29",
+          "val": -2.65,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-10-20",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-10-29",
+          "val": -3.38,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-11-05",
+          "val": 3.34,
+          "rival": "Club Queretaro",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-11-28",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-06",
+          "val": -2.83,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-13",
+          "val": 2.74,
+          "rival": "Leon",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-01-15",
+          "val": 3.74,
+          "rival": "Atletico San Luis",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-02-07",
+          "val": 5.53,
+          "rival": "Santos Laguna",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-02-21",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-03-03",
+          "val": -2.96,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-03-21",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-08",
+          "val": 2.25,
+          "rival": "Necaxa",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-15",
+          "val": -1.81,
+          "rival": "Mazatlán",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-05-01",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-15",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-19",
+          "val": 6.73,
+          "rival": "Tigres UANL",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "22-05-27",
+          "val": 12.98,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "22-07-16",
+          "val": 15.17,
+          "rival": "Cruz Azul",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-27",
+          "val": -2.15,
+          "rival": "Club Tijuana",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-08-05",
+          "val": 2.95,
+          "rival": "Club Queretaro",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-17",
+          "val": -1.59,
+          "rival": "FC Juarez",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-21",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-09-04",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-09-11",
+          "val": -3.84,
+          "rival": "Atletico San Luis",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "22-10-02",
+          "val": 1.86,
+          "rival": "Necaxa",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-01-13",
+          "val": 3.49,
+          "rival": "Mazatlán",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-01-27",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-02",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-02-10",
+          "val": -6.62,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-19",
+          "val": -9.92,
+          "rival": "Tigres UANL",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-02-26",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-03-11",
+          "val": -3.26,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-02",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "23-04-15",
+          "val": 8.82,
+          "rival": "Pachuca",
+          "res": "4-1",
+          "lvl": null
+        },
+        {
+          "date": "23-05-12",
+          "val": 12.07,
+          "rival": "Guadalajara Chivas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-07-02",
+          "val": 15.81,
+          "rival": "Cruz Azul",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-08-26",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-09-18",
+          "val": 5.87,
+          "rival": "Tigres UANL",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-09-29",
+          "val": -2.43,
+          "rival": "Puebla",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "23-10-21",
+          "val": -6.13,
+          "rival": "Mazatlán",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "23-11-02",
+          "val": -10.84,
+          "rival": "Pachuca",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-11-11",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-06",
+          "val": -2.45,
+          "rival": "Santos Laguna",
+          "res": "2-3",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-01-21",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-29",
+          "val": 1.24,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-02-05",
+          "val": 7.39,
+          "rival": "Santos Laguna",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-15",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-18",
+          "val": -2.05,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-03-03",
+          "val": -15.78,
+          "rival": "Club America",
+          "res": "1-5",
+          "lvl": null
+        },
+        {
+          "date": "24-03-17",
+          "val": -19.5,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "24-03-31",
+          "val": -22.19,
+          "rival": "Club Queretaro",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "24-04-15",
+          "val": 1.93,
+          "rival": "Atletico San Luis",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-04-28",
+          "val": -3.34,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-07-13",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-07-17",
+          "val": 1.02,
+          "rival": "Santos Laguna",
+          "res": "1-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-08-25",
+          "val": 3.91,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-14",
+          "val": 7.2,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-21",
+          "val": -2.09,
+          "rival": "Club Queretaro",
+          "res": "0-1",
+          "lvl": 1.57
+        },
+        {
+          "date": "24-10-19",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-0",
+          "lvl": 1.5
+        },
+        {
+          "date": "24-10-27",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-07",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "2-2",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-12-23",
+          "val": -2.05,
+          "rival": "Necaxa",
+          "res": "1-2",
+          "lvl": 2.05
+        },
+        {
+          "date": "24-12-28",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.68
+        },
+        {
+          "date": "25-01-03",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "25-01-19",
+          "val": -2.42,
+          "rival": "Leon",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "25-01-30",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-02-15",
+          "val": 1.67,
+          "rival": "Puebla",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-02-19",
+          "val": -9.83,
+          "rival": "Necaxa",
+          "res": "0-4",
+          "lvl": null
+        },
+        {
+          "date": "25-03-03",
+          "val": 3.9,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-03-16",
+          "val": -7.47,
+          "rival": "Club America",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-05",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-04-13",
+          "val": -3.34,
+          "rival": "Toluca",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-20",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-07-20",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-10",
+          "val": -9.09,
+          "rival": "Pachuca",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-25",
+          "val": -15.51,
+          "rival": "Club America",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "25-09-14",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "25-09-27",
+          "val": 1.87,
+          "rival": "Necaxa",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-10-04",
+          "val": 6.58,
+          "rival": "FC Juarez",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-10-23",
+          "val": 9.18,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "25-11-01",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-12-23",
+          "val": 1.9,
+          "rival": "Tepatitlán",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-12-27",
+          "val": 5.63,
+          "rival": "Leones Negros UDG",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-12-30",
+          "val": 10.53,
+          "rival": "Necaxa",
+          "res": "5-3",
+          "lvl": null
+        },
+        {
+          "date": "26-01-04",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-05",
+          "val": -3.05,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "26-01-10",
+          "val": 1.53,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-31",
+          "val": 2.54,
+          "rival": "Mazatlán",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-02-08",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "26-02-21",
+          "val": 2.4,
+          "rival": "Atletico San Luis",
+          "res": "3-2",
+          "lvl": null
+        }
+      ]
+    },
+    {
+      "name": "kg anotado",
+      "value": 19.85,
+      "techo": 52.47,
+      "pctTecho": 38,
+      "burstZone": true,
+      "burstMin": 14.97,
+      "burstMedian": 21.6,
+      "inertia": "↗ SUBIENDO",
+      "accel": "+4.19",
+      "totalBursts": 37,
+      "burstFreqMedian": 1,
+      "sinceLastBurst": 0,
+      "burstAmplitude": {
+        "baja": 21,
+        "media": 14,
+        "alta": 2,
+        "extrema": 0
+      },
+      "burstBands": [
+        {
+          "label": "15-22",
+          "key": "baja"
+        },
+        {
+          "label": "22-45",
+          "key": "media"
+        },
+        {
+          "label": "45-75",
+          "key": "alta"
+        },
+        {
+          "label": "75+",
+          "key": "extrema"
+        }
+      ],
+      "ml": "INCR",
+      "peaks": {
+        "pos": [
+          {
+            "val": 52.47,
+            "date": "2025-07-27",
+            "rival": "Monterrey",
+            "res": "1-3"
+          },
+          {
+            "val": 40.01,
+            "date": "2022-05-30",
+            "rival": "Pachuca",
+            "res": "1-2"
+          },
+          {
+            "val": 32.93,
+            "date": "2023-04-22",
+            "rival": "Necaxa",
+            "res": "3-1"
+          }
+        ],
+        "neg": [],
+        "zero": [
+          {
+            "val": 0.0,
+            "date": "2025-11-08",
+            "rival": "Club Tijuana",
+            "res": "0-2"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-01-04",
+            "rival": "Guadalajara Chivas",
+            "res": "0-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-01-14",
+            "rival": "Cruz Azul",
+            "res": "0-2"
+          }
+        ]
+      },
+      "ecg": [
+        {
+          "date": "20-07-26",
+          "val": 1.86,
+          "rival": "Club Tijuana",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "20-08-04",
+          "val": 4.49,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-10",
+          "val": 5.76,
+          "rival": "Atletico San Luis",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-08-14",
+          "val": 8.01,
+          "rival": "Toluca",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-17",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "20-08-23",
+          "val": 1.95,
+          "rival": "Club Queretaro",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-01",
+          "val": 5.29,
+          "rival": "Leon",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-09-06",
+          "val": 8.27,
+          "rival": "Cruz Azul",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-09",
+          "val": 11.24,
+          "rival": "Monterrey",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-13",
+          "val": 13.18,
+          "rival": "Mazatlán",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-20",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-26",
+          "val": 1.91,
+          "rival": "FC Juarez",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-10-04",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-18",
+          "val": 6.27,
+          "rival": "Guadalajara Chivas",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "20-10-25",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-31",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-11-08",
+          "val": 2.56,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-01-09",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-01-18",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-01-24",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-01-31",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-02-06",
+          "val": 2.93,
+          "rival": "Santos Laguna",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-02-16",
+          "val": 4.26,
+          "rival": "Pachuca",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-02-21",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-02-27",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-03-02",
+          "val": 5.93,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "21-03-06",
+          "val": 8.87,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-03-13",
+          "val": 11.33,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-03-21",
+          "val": 18.34,
+          "rival": "Cruz Azul",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "21-04-03",
+          "val": 20.12,
+          "rival": "Club Tijuana",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-11",
+          "val": 23.04,
+          "rival": "Leon",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "21-04-17",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-25",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-05-01",
+          "val": 6.07,
+          "rival": "Necaxa",
+          "res": "5-1",
+          "lvl": null
+        },
+        {
+          "date": "21-05-09",
+          "val": 8.48,
+          "rival": "Tigres UANL",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-05-13",
+          "val": 11.43,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-05-15",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-07-25",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-01",
+          "val": 2.4,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-10",
+          "val": 5.06,
+          "rival": "Pachuca",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-15",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-08-19",
+          "val": 2.78,
+          "rival": "Santos Laguna",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-08-21",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-29",
+          "val": 2.9,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-09-11",
+          "val": 7.85,
+          "rival": "Monterrey",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "21-09-18",
+          "val": 12.41,
+          "rival": "Necaxa",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-25",
+          "val": 17.37,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-29",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-10-03",
+          "val": 1.92,
+          "rival": "Guadalajara Chivas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-10-16",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-10-20",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-10-25",
+          "val": 8.3,
+          "rival": "Atletico San Luis",
+          "res": "6-2",
+          "lvl": null
+        },
+        {
+          "date": "21-10-29",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-11-05",
+          "val": 3.34,
+          "rival": "Club Queretaro",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-11-25",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-11-28",
+          "val": 2.68,
+          "rival": "Monterrey",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-03",
+          "val": 5.23,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-12-06",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-10",
+          "val": 5.75,
+          "rival": "Leon",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "21-12-13",
+          "val": 8.49,
+          "rival": "Leon",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-01-15",
+          "val": 9.49,
+          "rival": "Atletico San Luis",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-01-20",
+          "val": 11.97,
+          "rival": "Leon",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-01-23",
+          "val": 16.57,
+          "rival": "Club America",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "22-02-07",
+          "val": 20.14,
+          "rival": "Santos Laguna",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-02-12",
+          "val": 23.44,
+          "rival": "Puebla",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-02-21",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-02-26",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "22-03-03",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-03-05",
+          "val": 2.09,
+          "rival": "Club Queretaro",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-03-12",
+          "val": 5.75,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-03-21",
+          "val": 7.9,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-03",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-08",
+          "val": 4.5,
+          "rival": "Necaxa",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-15",
+          "val": 6.31,
+          "rival": "Mazatlán",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-04-21",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-04-24",
+          "val": 6.5,
+          "rival": "Toluca",
+          "res": "4-2",
+          "lvl": null
+        },
+        {
+          "date": "22-05-01",
+          "val": 9.45,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-13",
+          "val": 15.2,
+          "rival": "Guadalajara Chivas",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-15",
+          "val": 18.03,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-19",
+          "val": 24.77,
+          "rival": "Tigres UANL",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "22-05-22",
+          "val": 30.41,
+          "rival": "Tigres UANL",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "22-05-27",
+          "val": 36.66,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "22-05-30",
+          "val": 40.01,
+          "rival": "Pachuca",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-03",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-07-10",
+          "val": 4.5,
+          "rival": "Toluca",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "22-07-16",
+          "val": 11.05,
+          "rival": "Cruz Azul",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-24",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-27",
+          "val": 2.15,
+          "rival": "Club Tijuana",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-08-01",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-05",
+          "val": 4.43,
+          "rival": "Club Queretaro",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-14",
+          "val": 6.71,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-17",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-21",
+          "val": 2.0,
+          "rival": "Puebla",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-26",
+          "val": 5.1,
+          "rival": "Pachuca",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "22-08-29",
+          "val": 8.46,
+          "rival": "Leon",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "22-09-04",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-09-08",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-09-11",
+          "val": 1.92,
+          "rival": "Atletico San Luis",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "22-09-18",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "22-10-02",
+          "val": 1.86,
+          "rival": "Necaxa",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-01-13",
+          "val": 5.11,
+          "rival": "Mazatlán",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-01-22",
+          "val": 8.52,
+          "rival": "Club Queretaro",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "23-01-27",
+          "val": 14.12,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-02",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-02-05",
+          "val": 4.13,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-10",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-19",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-02-23",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-02-26",
+          "val": 6.74,
+          "rival": "Club America",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-03-04",
+          "val": 8.74,
+          "rival": "Club Tijuana",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-03-11",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-03-18",
+          "val": 7.4,
+          "rival": "Puebla",
+          "res": "4-0",
+          "lvl": null
+        },
+        {
+          "date": "23-04-02",
+          "val": 14.9,
+          "rival": "Guadalajara Chivas",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "23-04-10",
+          "val": 16.52,
+          "rival": "FC Juarez",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-15",
+          "val": 28.28,
+          "rival": "Pachuca",
+          "res": "4-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-22",
+          "val": 32.93,
+          "rival": "Necaxa",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-30",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-05-06",
+          "val": 2.02,
+          "rival": "Cruz Azul",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-05-12",
+          "val": 5.27,
+          "rival": "Guadalajara Chivas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-05-15",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-07-02",
+          "val": 3.73,
+          "rival": "Cruz Azul",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-07-10",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-07-14",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-08-21",
+          "val": 2.98,
+          "rival": "Club America",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-08-26",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-08-31",
+          "val": 4.45,
+          "rival": "Club Queretaro",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-09-04",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-09-18",
+          "val": 5.87,
+          "rival": "Tigres UANL",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-09-23",
+          "val": 10.37,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-09-29",
+          "val": 15.23,
+          "rival": "Puebla",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "23-10-08",
+          "val": 17.58,
+          "rival": "Guadalajara Chivas",
+          "res": "1-4",
+          "lvl": null
+        },
+        {
+          "date": "23-10-21",
+          "val": 19.43,
+          "rival": "Mazatlán",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "23-10-25",
+          "val": 22.33,
+          "rival": "Leon",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-10-30",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-11-02",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-11-05",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "23-11-11",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-06",
+          "val": 4.9,
+          "rival": "Santos Laguna",
+          "res": "2-3",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-01-15",
+          "val": 6.8,
+          "rival": "Necaxa",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "24-01-21",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-29",
+          "val": 2.49,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-02-01",
+          "val": 9.54,
+          "rival": "Pachuca",
+          "res": "3-4",
+          "lvl": null
+        },
+        {
+          "date": "24-02-05",
+          "val": 15.69,
+          "rival": "Santos Laguna",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-10",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "24-02-15",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-18",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-02-25",
+          "val": 2.82,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "24-03-03",
+          "val": 6.25,
+          "rival": "Club America",
+          "res": "1-5",
+          "lvl": null
+        },
+        {
+          "date": "24-03-09",
+          "val": 9.22,
+          "rival": "Puebla",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "24-03-17",
+          "val": 12.94,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "24-03-24",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.8
+        },
+        {
+          "date": "24-03-25",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.8
+        },
+        {
+          "date": "24-03-31",
+          "val": 5.37,
+          "rival": "Club Queretaro",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "24-04-07",
+          "val": 8.56,
+          "rival": "Toluca",
+          "res": "1-4",
+          "lvl": null
+        },
+        {
+          "date": "24-04-15",
+          "val": 12.42,
+          "rival": "Atletico San Luis",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-04-22",
+          "val": 18.48,
+          "rival": "Cruz Azul",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "24-04-28",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-07-06",
+          "val": 4.4,
+          "rival": "FC Juarez",
+          "res": "2-2",
+          "lvl": 2.27
+        },
+        {
+          "date": "24-07-13",
+          "val": 7.28,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-07-17",
+          "val": 8.3,
+          "rival": "Santos Laguna",
+          "res": "1-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-07-20",
+          "val": 10.7,
+          "rival": "Puebla",
+          "res": "2-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-08-25",
+          "val": 16.47,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-08-31",
+          "val": 18.66,
+          "rival": "Atletico San Luis",
+          "res": "1-2",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-14",
+          "val": 21.95,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-18",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "0-3",
+          "lvl": 3.21
+        },
+        {
+          "date": "24-09-21",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "0-1",
+          "lvl": 1.57
+        },
+        {
+          "date": "24-09-28",
+          "val": 3.23,
+          "rival": "Toluca",
+          "res": "1-4",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-10-06",
+          "val": 11.21,
+          "rival": "Guadalajara Chivas",
+          "res": "3-2",
+          "lvl": 2.8
+        },
+        {
+          "date": "24-10-19",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-0",
+          "lvl": 1.5
+        },
+        {
+          "date": "24-10-24",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "0-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-10-27",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-03",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-4",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-07",
+          "val": 7.7,
+          "rival": "Cruz Azul",
+          "res": "2-2",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-10",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-11-22",
+          "val": 4.21,
+          "rival": "Guadalajara Chivas",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-11-25",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "24-12-23",
+          "val": 2.05,
+          "rival": "Necaxa",
+          "res": "1-2",
+          "lvl": 2.05
+        },
+        {
+          "date": "24-12-28",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.68
+        },
+        {
+          "date": "25-01-03",
+          "val": 2.7,
+          "rival": "Atletico San Luis",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "25-01-12",
+          "val": 5.68,
+          "rival": "Cruz Azul",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-01-19",
+          "val": 8.1,
+          "rival": "Leon",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "25-01-26",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-01-30",
+          "val": 7.47,
+          "rival": "Monterrey",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-02-02",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-02-09",
+          "val": 3.23,
+          "rival": "Tigres UANL",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "25-02-15",
+          "val": 8.25,
+          "rival": "Puebla",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-02-19",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-4",
+          "lvl": null
+        },
+        {
+          "date": "25-02-23",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-03-03",
+          "val": 5.85,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-03-10",
+          "val": 13.28,
+          "rival": "Club Tijuana",
+          "res": "4-3",
+          "lvl": null
+        },
+        {
+          "date": "25-03-16",
+          "val": 17.01,
+          "rival": "Club America",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "25-03-29",
+          "val": 21.6,
+          "rival": "Mazatlán",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-05",
+          "val": 24.44,
+          "rival": "FC Juarez",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-04-13",
+          "val": 31.12,
+          "rival": "Toluca",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-17",
+          "val": 35.14,
+          "rival": "Club Queretaro",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "25-04-20",
+          "val": 37.24,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-07-12",
+          "val": 40.09,
+          "rival": "Puebla",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-07-20",
+          "val": 49.62,
+          "rival": "Cruz Azul",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-07-27",
+          "val": 52.47,
+          "rival": "Monterrey",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-10",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-17",
+          "val": 4.56,
+          "rival": "Club Queretaro",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-25",
+          "val": 10.99,
+          "rival": "Club America",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "25-08-31",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "25-09-14",
+          "val": 3.11,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "25-09-20",
+          "val": 4.67,
+          "rival": "Mazatlán",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-09-25",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-09-27",
+          "val": 5.6,
+          "rival": "Necaxa",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-10-04",
+          "val": 12.68,
+          "rival": "FC Juarez",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-10-18",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-10-23",
+          "val": 2.6,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "25-10-26",
+          "val": 5.58,
+          "rival": "Guadalajara Chivas",
+          "res": "1-4",
+          "lvl": null
+        },
+        {
+          "date": "25-11-01",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-11-08",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-12-23",
+          "val": 5.7,
+          "rival": "Tepatitlán",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-12-27",
+          "val": 11.3,
+          "rival": "Leones Negros UDG",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-12-30",
+          "val": 23.55,
+          "rival": "Necaxa",
+          "res": "5-3",
+          "lvl": null
+        },
+        {
+          "date": "26-01-04",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-05",
+          "val": 3.05,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "26-01-10",
+          "val": 4.58,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-14",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "26-01-17",
+          "val": 2.09,
+          "rival": "Necaxa",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-31",
+          "val": 3.1,
+          "rival": "Mazatlán",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-02-08",
+          "val": 8.16,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "26-02-14",
+          "val": 10.41,
+          "rival": "Pachuca",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "26-02-21",
+          "val": 17.61,
+          "rival": "Atletico San Luis",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "26-02-28",
+          "val": 19.85,
+          "rival": "FC Juarez",
+          "res": "1-3",
+          "lvl": null
+        }
+      ]
+    },
+    {
+      "name": "kg recibido",
+      "value": 23.31,
+      "techo": 135.85,
+      "pctTecho": 17,
+      "burstZone": false,
+      "burstMin": 25.05,
+      "burstMedian": 41.04,
+      "inertia": "↗ SUBIENDO",
+      "accel": "+5.83",
+      "totalBursts": 41,
+      "burstFreqMedian": 1,
+      "sinceLastBurst": 17,
+      "burstAmplitude": {
+        "baja": 18,
+        "media": 11,
+        "alta": 9,
+        "extrema": 3
+      },
+      "burstBands": [
+        {
+          "label": "25-38",
+          "key": "baja"
+        },
+        {
+          "label": "38-75",
+          "key": "media"
+        },
+        {
+          "label": "75-125",
+          "key": "alta"
+        },
+        {
+          "label": "125+",
+          "key": "extrema"
+        }
+      ],
+      "ml": "INCR",
+      "peaks": {
+        "pos": [
+          {
+            "val": 135.85,
+            "date": "2025-10-18",
+            "rival": "Atletico San Luis",
+            "res": "0-2"
+          },
+          {
+            "val": 47.56,
+            "date": "2022-08-29",
+            "rival": "Leon",
+            "res": "2-4"
+          },
+          {
+            "val": 44.95,
+            "date": "2023-11-05",
+            "rival": "U.N.A.M. - Pumas",
+            "res": "0-3"
+          }
+        ],
+        "neg": [],
+        "zero": [
+          {
+            "val": 0.0,
+            "date": "2026-01-10",
+            "rival": "Puebla",
+            "res": "1-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-01-17",
+            "rival": "Necaxa",
+            "res": "1-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-01-31",
+            "rival": "Mazatlán",
+            "res": "1-0"
+          }
+        ]
+      },
+      "ecg": [
+        {
+          "date": "20-07-26",
+          "val": 5.57,
+          "rival": "Club Tijuana",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "20-08-04",
+          "val": 10.84,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-10",
+          "val": 12.11,
+          "rival": "Atletico San Luis",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-08-14",
+          "val": 16.61,
+          "rival": "Toluca",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-17",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "20-08-23",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-01",
+          "val": 6.69,
+          "rival": "Leon",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-09-06",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-09",
+          "val": 2.97,
+          "rival": "Monterrey",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-13",
+          "val": 4.91,
+          "rival": "Mazatlán",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-20",
+          "val": 7.79,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-26",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-10-04",
+          "val": 2.43,
+          "rival": "Necaxa",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-18",
+          "val": 11.83,
+          "rival": "Guadalajara Chivas",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "20-10-25",
+          "val": 14.66,
+          "rival": "Club America",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-31",
+          "val": 16.95,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-11-08",
+          "val": 19.51,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-01-09",
+          "val": 25.44,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-01-18",
+          "val": 27.39,
+          "rival": "Club Queretaro",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-01-24",
+          "val": 33.07,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-01-31",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-02-06",
+          "val": 2.93,
+          "rival": "Santos Laguna",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-02-16",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-02-21",
+          "val": 7.0,
+          "rival": "Club America",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-02-27",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-03-02",
+          "val": 1.98,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "21-03-06",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-03-13",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-03-21",
+          "val": 10.52,
+          "rival": "Cruz Azul",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "21-04-03",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-11",
+          "val": 8.77,
+          "rival": "Leon",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "21-04-17",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-25",
+          "val": 2.78,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-05-01",
+          "val": 4.0,
+          "rival": "Necaxa",
+          "res": "5-1",
+          "lvl": null
+        },
+        {
+          "date": "21-05-09",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-05-13",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-05-15",
+          "val": 2.98,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-07-25",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-01",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-10",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-15",
+          "val": 3.9,
+          "rival": "Club America",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-08-19",
+          "val": 6.68,
+          "rival": "Santos Laguna",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-08-21",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-29",
+          "val": 2.9,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-09-11",
+          "val": 5.38,
+          "rival": "Monterrey",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "21-09-18",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-25",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-29",
+          "val": 2.65,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-10-03",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-10-16",
+          "val": 2.55,
+          "rival": "Mazatlán",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-10-20",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-10-25",
+          "val": 2.77,
+          "rival": "Atletico San Luis",
+          "res": "6-2",
+          "lvl": null
+        },
+        {
+          "date": "21-10-29",
+          "val": 6.14,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-11-05",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-11-25",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-11-28",
+          "val": 2.68,
+          "rival": "Monterrey",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-03",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-12-06",
+          "val": 2.83,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-10",
+          "val": 11.46,
+          "rival": "Leon",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "21-12-13",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-01-15",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-01-20",
+          "val": 2.48,
+          "rival": "Leon",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-01-23",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "22-02-07",
+          "val": 1.78,
+          "rival": "Santos Laguna",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-02-12",
+          "val": 5.08,
+          "rival": "Puebla",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-02-21",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-02-26",
+          "val": 4.02,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "22-03-03",
+          "val": 6.98,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-03-05",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-03-12",
+          "val": 1.83,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-03-21",
+          "val": 3.98,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-03",
+          "val": 6.35,
+          "rival": "Cruz Azul",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-08",
+          "val": 8.6,
+          "rival": "Necaxa",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-15",
+          "val": 12.22,
+          "rival": "Mazatlán",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-04-21",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-04-24",
+          "val": 3.25,
+          "rival": "Toluca",
+          "res": "4-2",
+          "lvl": null
+        },
+        {
+          "date": "22-05-01",
+          "val": 6.2,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-13",
+          "val": 9.07,
+          "rival": "Guadalajara Chivas",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-15",
+          "val": 11.91,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-19",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "22-05-22",
+          "val": 11.29,
+          "rival": "Tigres UANL",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "22-05-27",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "22-05-30",
+          "val": 6.7,
+          "rival": "Pachuca",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-03",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-07-10",
+          "val": 6.75,
+          "rival": "Toluca",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "22-07-16",
+          "val": 11.12,
+          "rival": "Cruz Azul",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-24",
+          "val": 17.58,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-27",
+          "val": 21.88,
+          "rival": "Club Tijuana",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-08-01",
+          "val": 24.18,
+          "rival": "Santos Laguna",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-05",
+          "val": 25.66,
+          "rival": "Club Queretaro",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-14",
+          "val": 27.95,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-17",
+          "val": 29.54,
+          "rival": "FC Juarez",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-21",
+          "val": 31.54,
+          "rival": "Puebla",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-26",
+          "val": 40.84,
+          "rival": "Pachuca",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "22-08-29",
+          "val": 47.56,
+          "rival": "Leon",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "22-09-04",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-09-08",
+          "val": 2.34,
+          "rival": "Mazatlán",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-09-11",
+          "val": 8.1,
+          "rival": "Atletico San Luis",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "22-09-18",
+          "val": 15.27,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "22-10-02",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-01-13",
+          "val": 1.62,
+          "rival": "Mazatlán",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-01-22",
+          "val": 5.04,
+          "rival": "Club Queretaro",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "23-01-27",
+          "val": 10.64,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-02",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-02-05",
+          "val": 4.13,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-10",
+          "val": 10.76,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-19",
+          "val": 14.06,
+          "rival": "Tigres UANL",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-02-23",
+          "val": 16.32,
+          "rival": "Cruz Azul",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-02-26",
+          "val": 23.06,
+          "rival": "Club America",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-03-04",
+          "val": 25.05,
+          "rival": "Club Tijuana",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-03-11",
+          "val": 28.32,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-03-18",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "4-0",
+          "lvl": null
+        },
+        {
+          "date": "23-04-02",
+          "val": 7.5,
+          "rival": "Guadalajara Chivas",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "23-04-10",
+          "val": 9.12,
+          "rival": "FC Juarez",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-15",
+          "val": 12.06,
+          "rival": "Pachuca",
+          "res": "4-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-22",
+          "val": 13.61,
+          "rival": "Necaxa",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-30",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-05-06",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-05-12",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-05-15",
+          "val": 3.4,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-07-02",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-07-10",
+          "val": 3.4,
+          "rival": "Monterrey",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-07-14",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-08-21",
+          "val": 2.98,
+          "rival": "Club America",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-08-26",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-08-31",
+          "val": 2.22,
+          "rival": "Club Queretaro",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-09-04",
+          "val": 8.99,
+          "rival": "Atletico San Luis",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-09-18",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-09-23",
+          "val": 2.25,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-09-29",
+          "val": 9.54,
+          "rival": "Puebla",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "23-10-08",
+          "val": 18.94,
+          "rival": "Guadalajara Chivas",
+          "res": "1-4",
+          "lvl": null
+        },
+        {
+          "date": "23-10-21",
+          "val": 24.49,
+          "rival": "Mazatlán",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "23-10-25",
+          "val": 27.39,
+          "rival": "Leon",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "23-10-30",
+          "val": 31.43,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-11-02",
+          "val": 36.15,
+          "rival": "Pachuca",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-11-05",
+          "val": 44.95,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "23-11-11",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-06",
+          "val": 7.35,
+          "rival": "Santos Laguna",
+          "res": "2-3",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-01-15",
+          "val": 11.15,
+          "rival": "Necaxa",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "24-01-21",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-29",
+          "val": 1.24,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-02-01",
+          "val": 10.64,
+          "rival": "Pachuca",
+          "res": "3-4",
+          "lvl": null
+        },
+        {
+          "date": "24-02-05",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-10",
+          "val": 3.78,
+          "rival": "Mazatlán",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "24-02-15",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-18",
+          "val": 2.05,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-02-25",
+          "val": 4.87,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "24-03-03",
+          "val": 22.03,
+          "rival": "Club America",
+          "res": "1-5",
+          "lvl": null
+        },
+        {
+          "date": "24-03-09",
+          "val": 25.0,
+          "rival": "Puebla",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "24-03-17",
+          "val": 32.44,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "24-03-24",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.8
+        },
+        {
+          "date": "24-03-25",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.8
+        },
+        {
+          "date": "24-03-31",
+          "val": 8.05,
+          "rival": "Club Queretaro",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "24-04-07",
+          "val": 20.83,
+          "rival": "Toluca",
+          "res": "1-4",
+          "lvl": null
+        },
+        {
+          "date": "24-04-15",
+          "val": 22.76,
+          "rival": "Atletico San Luis",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-04-22",
+          "val": 28.82,
+          "rival": "Cruz Azul",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "24-04-28",
+          "val": 32.15,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-07-06",
+          "val": 36.55,
+          "rival": "FC Juarez",
+          "res": "2-2",
+          "lvl": 2.27
+        },
+        {
+          "date": "24-07-13",
+          "val": 39.43,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-07-17",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "1-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-07-20",
+          "val": 1.2,
+          "rival": "Puebla",
+          "res": "2-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-08-25",
+          "val": 4.08,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-08-31",
+          "val": 8.47,
+          "rival": "Atletico San Luis",
+          "res": "1-2",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-14",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-18",
+          "val": 8.07,
+          "rival": "Club America",
+          "res": "0-3",
+          "lvl": 3.21
+        },
+        {
+          "date": "24-09-21",
+          "val": 10.16,
+          "rival": "Club Queretaro",
+          "res": "0-1",
+          "lvl": 1.57
+        },
+        {
+          "date": "24-09-28",
+          "val": 23.09,
+          "rival": "Toluca",
+          "res": "1-4",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-10-06",
+          "val": 28.41,
+          "rival": "Guadalajara Chivas",
+          "res": "3-2",
+          "lvl": 2.8
+        },
+        {
+          "date": "24-10-19",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-0",
+          "lvl": 1.5
+        },
+        {
+          "date": "24-10-24",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "0-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-10-27",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-03",
+          "val": 12.14,
+          "rival": "Monterrey",
+          "res": "0-4",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-07",
+          "val": 19.84,
+          "rival": "Cruz Azul",
+          "res": "2-2",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-10",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-11-22",
+          "val": 2.11,
+          "rival": "Guadalajara Chivas",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-11-25",
+          "val": 10.71,
+          "rival": "Club Tijuana",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "24-12-23",
+          "val": 14.81,
+          "rival": "Necaxa",
+          "res": "1-2",
+          "lvl": 2.05
+        },
+        {
+          "date": "24-12-28",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.68
+        },
+        {
+          "date": "25-01-03",
+          "val": 2.7,
+          "rival": "Atletico San Luis",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "25-01-12",
+          "val": 5.68,
+          "rival": "Cruz Azul",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-01-19",
+          "val": 10.52,
+          "rival": "Leon",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "25-01-26",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-01-30",
+          "val": 7.47,
+          "rival": "Monterrey",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-02-02",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-02-09",
+          "val": 6.47,
+          "rival": "Tigres UANL",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "25-02-15",
+          "val": 9.82,
+          "rival": "Puebla",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-02-19",
+          "val": 19.65,
+          "rival": "Necaxa",
+          "res": "0-4",
+          "lvl": null
+        },
+        {
+          "date": "25-02-23",
+          "val": 22.31,
+          "rival": "Santos Laguna",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-03-03",
+          "val": 24.26,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-03-10",
+          "val": 29.84,
+          "rival": "Club Tijuana",
+          "res": "4-3",
+          "lvl": null
+        },
+        {
+          "date": "25-03-16",
+          "val": 41.04,
+          "rival": "Club America",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "25-03-29",
+          "val": 47.92,
+          "rival": "Mazatlán",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-05",
+          "val": 50.76,
+          "rival": "FC Juarez",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-04-13",
+          "val": 60.78,
+          "rival": "Toluca",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-17",
+          "val": 62.79,
+          "rival": "Club Queretaro",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "25-04-20",
+          "val": 64.89,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-07-12",
+          "val": 66.79,
+          "rival": "Puebla",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-07-20",
+          "val": 76.32,
+          "rival": "Cruz Azul",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-07-27",
+          "val": 84.87,
+          "rival": "Monterrey",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-10",
+          "val": 93.96,
+          "rival": "Pachuca",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-17",
+          "val": 98.52,
+          "rival": "Club Queretaro",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-25",
+          "val": 111.37,
+          "rival": "Club America",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "25-08-31",
+          "val": 113.8,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "25-09-14",
+          "val": 116.91,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "25-09-20",
+          "val": 118.47,
+          "rival": "Mazatlán",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-09-25",
+          "val": 124.97,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-09-27",
+          "val": 128.7,
+          "rival": "Necaxa",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-10-04",
+          "val": 131.06,
+          "rival": "FC Juarez",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-10-18",
+          "val": 135.85,
+          "rival": "Atletico San Luis",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-10-23",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "25-10-26",
+          "val": 11.94,
+          "rival": "Guadalajara Chivas",
+          "res": "1-4",
+          "lvl": null
+        },
+        {
+          "date": "25-11-01",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-11-08",
+          "val": 4.5,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "25-12-23",
+          "val": 8.3,
+          "rival": "Tepatitlán",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-12-27",
+          "val": 10.17,
+          "rival": "Leones Negros UDG",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-12-30",
+          "val": 17.52,
+          "rival": "Necaxa",
+          "res": "5-3",
+          "lvl": null
+        },
+        {
+          "date": "26-01-04",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-05",
+          "val": 6.1,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "26-01-10",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-14",
+          "val": 5.6,
+          "rival": "Cruz Azul",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "26-01-17",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-31",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-02-08",
+          "val": 5.06,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "26-02-14",
+          "val": 11.81,
+          "rival": "Pachuca",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "26-02-21",
+          "val": 16.61,
+          "rival": "Atletico San Luis",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "26-02-28",
+          "val": 23.31,
+          "rival": "FC Juarez",
+          "res": "1-3",
+          "lvl": null
+        }
+      ]
+    },
+    {
+      "name": "kg local anotado",
+      "value": 17.85,
+      "techo": 40.35,
+      "pctTecho": 44,
+      "burstZone": true,
+      "burstMin": 13.26,
+      "burstMedian": 21.71,
+      "inertia": "↗ SUBIENDO",
+      "accel": "+3.70",
+      "totalBursts": 20,
+      "burstFreqMedian": 1,
+      "sinceLastBurst": 0,
+      "burstAmplitude": {
+        "baja": 8,
+        "media": 11,
+        "alta": 1,
+        "extrema": 0
+      },
+      "burstBands": [
+        {
+          "label": "13-20",
+          "key": "baja"
+        },
+        {
+          "label": "20-40",
+          "key": "media"
+        },
+        {
+          "label": "40-66",
+          "key": "alta"
+        },
+        {
+          "label": "66+",
+          "key": "extrema"
+        }
+      ],
+      "ml": "INCR",
+      "peaks": {
+        "pos": [
+          {
+            "val": 40.35,
+            "date": "2022-08-05",
+            "rival": "Club Queretaro",
+            "res": "3-1"
+          },
+          {
+            "val": 30.74,
+            "date": "2025-07-20",
+            "rival": "Cruz Azul",
+            "res": "3-3"
+          },
+          {
+            "val": 26.25,
+            "date": "2023-07-02",
+            "rival": "Cruz Azul",
+            "res": "2-0"
+          }
+        ],
+        "neg": [],
+        "zero": [
+          {
+            "val": 0.0,
+            "date": "2025-08-10",
+            "rival": "Pachuca",
+            "res": "0-3"
+          },
+          {
+            "val": 0.0,
+            "date": "2025-11-01",
+            "rival": "Toluca",
+            "res": "0-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-01-04",
+            "rival": "Guadalajara Chivas",
+            "res": "0-0"
+          }
+        ]
+      },
+      "ecg": [
+        {
+          "date": "20-08-04",
+          "val": 2.63,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-14",
+          "val": 4.88,
+          "rival": "Toluca",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-23",
+          "val": 6.83,
+          "rival": "Club Queretaro",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-06",
+          "val": 9.81,
+          "rival": "Cruz Azul",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-13",
+          "val": 11.76,
+          "rival": "Mazatlán",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-20",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-04",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-31",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-01-09",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-01-24",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-02-06",
+          "val": 2.93,
+          "rival": "Santos Laguna",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-02-21",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-03-02",
+          "val": 5.93,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "21-03-06",
+          "val": 8.87,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-03",
+          "val": 10.64,
+          "rival": "Club Tijuana",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-11",
+          "val": 13.57,
+          "rival": "Leon",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "21-04-25",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-05-09",
+          "val": 2.41,
+          "rival": "Tigres UANL",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-05-13",
+          "val": 5.36,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-01",
+          "val": 7.76,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-15",
+          "val": 0.0,
+          "rival": "Club America",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-08-21",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-11",
+          "val": 4.95,
+          "rival": "Monterrey",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "21-09-25",
+          "val": 9.91,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-29",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-10-20",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-10-29",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-11-05",
+          "val": 3.34,
+          "rival": "Club Queretaro",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-11-28",
+          "val": 6.02,
+          "rival": "Monterrey",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-06",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-13",
+          "val": 2.74,
+          "rival": "Leon",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-01-15",
+          "val": 3.74,
+          "rival": "Atletico San Luis",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-02-07",
+          "val": 7.31,
+          "rival": "Santos Laguna",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-02-21",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-03-03",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-03-21",
+          "val": 2.15,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-08",
+          "val": 6.65,
+          "rival": "Necaxa",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-15",
+          "val": 8.46,
+          "rival": "Mazatlán",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-05-01",
+          "val": 11.41,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-15",
+          "val": 14.24,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-19",
+          "val": 20.98,
+          "rival": "Tigres UANL",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "22-05-27",
+          "val": 27.23,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "22-07-16",
+          "val": 33.78,
+          "rival": "Cruz Azul",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-27",
+          "val": 35.93,
+          "rival": "Club Tijuana",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-08-05",
+          "val": 40.35,
+          "rival": "Club Queretaro",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-17",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-21",
+          "val": 2.0,
+          "rival": "Puebla",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-09-04",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-09-11",
+          "val": 1.92,
+          "rival": "Atletico San Luis",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "22-10-02",
+          "val": 3.78,
+          "rival": "Necaxa",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-01-13",
+          "val": 7.03,
+          "rival": "Mazatlán",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-01-27",
+          "val": 12.63,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-02",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-02-10",
+          "val": 0.0,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-19",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-02-26",
+          "val": 6.74,
+          "rival": "Club America",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-03-11",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-02",
+          "val": 7.5,
+          "rival": "Guadalajara Chivas",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "23-04-15",
+          "val": 19.26,
+          "rival": "Pachuca",
+          "res": "4-1",
+          "lvl": null
+        },
+        {
+          "date": "23-05-12",
+          "val": 22.51,
+          "rival": "Guadalajara Chivas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-07-02",
+          "val": 26.25,
+          "rival": "Cruz Azul",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-08-26",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-09-18",
+          "val": 5.87,
+          "rival": "Tigres UANL",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-09-29",
+          "val": 10.73,
+          "rival": "Puebla",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "23-10-21",
+          "val": 12.58,
+          "rival": "Mazatlán",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "23-11-02",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-11-11",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-06",
+          "val": 4.9,
+          "rival": "Santos Laguna",
+          "res": "2-3",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-01-21",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-29",
+          "val": 2.49,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-02-05",
+          "val": 8.64,
+          "rival": "Santos Laguna",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-15",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-18",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-03-03",
+          "val": 3.43,
+          "rival": "Club America",
+          "res": "1-5",
+          "lvl": null
+        },
+        {
+          "date": "24-03-17",
+          "val": 7.15,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "24-03-31",
+          "val": 12.52,
+          "rival": "Club Queretaro",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "24-04-15",
+          "val": 16.38,
+          "rival": "Atletico San Luis",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-04-28",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-07-13",
+          "val": 2.88,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-07-17",
+          "val": 3.9,
+          "rival": "Santos Laguna",
+          "res": "1-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-08-25",
+          "val": 9.67,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-14",
+          "val": 12.96,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-21",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "0-1",
+          "lvl": 1.57
+        },
+        {
+          "date": "24-10-19",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-0",
+          "lvl": 1.5
+        },
+        {
+          "date": "24-10-27",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-07",
+          "val": 7.7,
+          "rival": "Cruz Azul",
+          "res": "2-2",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-12-23",
+          "val": 9.75,
+          "rival": "Necaxa",
+          "res": "1-2",
+          "lvl": 2.05
+        },
+        {
+          "date": "24-12-28",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.68
+        },
+        {
+          "date": "25-01-03",
+          "val": 2.7,
+          "rival": "Atletico San Luis",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "25-01-19",
+          "val": 5.12,
+          "rival": "Leon",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "25-01-30",
+          "val": 12.59,
+          "rival": "Monterrey",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-02-15",
+          "val": 17.61,
+          "rival": "Puebla",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-02-19",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-4",
+          "lvl": null
+        },
+        {
+          "date": "25-03-03",
+          "val": 5.85,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-03-16",
+          "val": 9.59,
+          "rival": "Club America",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-05",
+          "val": 12.43,
+          "rival": "FC Juarez",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-04-13",
+          "val": 19.11,
+          "rival": "Toluca",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-20",
+          "val": 21.21,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-07-20",
+          "val": 30.74,
+          "rival": "Cruz Azul",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-10",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-25",
+          "val": 6.42,
+          "rival": "Club America",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "25-09-14",
+          "val": 9.54,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "25-09-27",
+          "val": 15.14,
+          "rival": "Necaxa",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-10-04",
+          "val": 22.21,
+          "rival": "FC Juarez",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-10-23",
+          "val": 24.81,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "25-11-01",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-12-23",
+          "val": 5.7,
+          "rival": "Tepatitlán",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-12-27",
+          "val": 11.3,
+          "rival": "Leones Negros UDG",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-12-30",
+          "val": 23.55,
+          "rival": "Necaxa",
+          "res": "5-3",
+          "lvl": null
+        },
+        {
+          "date": "26-01-04",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-05",
+          "val": 3.05,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "26-01-10",
+          "val": 4.58,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-31",
+          "val": 5.59,
+          "rival": "Mazatlán",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-02-08",
+          "val": 10.65,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "26-02-21",
+          "val": 17.85,
+          "rival": "Atletico San Luis",
+          "res": "3-2",
+          "lvl": null
+        }
+      ]
+    },
+    {
+      "name": "kg local recibido",
+      "value": 9.86,
+      "techo": 96.98,
+      "pctTecho": 10,
+      "burstZone": false,
+      "burstMin": 27.24,
+      "burstMedian": 42.1,
+      "inertia": "↔ LATERAL",
+      "accel": "+0.94",
+      "totalBursts": 20,
+      "burstFreqMedian": 1,
+      "sinceLastBurst": 11,
+      "burstAmplitude": {
+        "baja": 9,
+        "media": 7,
+        "alta": 4,
+        "extrema": 0
+      },
+      "burstBands": [
+        {
+          "label": "27-41",
+          "key": "baja"
+        },
+        {
+          "label": "41-82",
+          "key": "media"
+        },
+        {
+          "label": "82-136",
+          "key": "alta"
+        },
+        {
+          "label": "136+",
+          "key": "extrema"
+        }
+      ],
+      "ml": "INCR",
+      "peaks": {
+        "pos": [
+          {
+            "val": 96.98,
+            "date": "2025-10-04",
+            "rival": "FC Juarez",
+            "res": "3-1"
+          },
+          {
+            "val": 42.85,
+            "date": "2024-07-13",
+            "rival": "Tigres UANL",
+            "res": "1-1"
+          },
+          {
+            "val": 33.06,
+            "date": "2021-03-02",
+            "rival": "Atletico San Luis",
+            "res": "3-1"
+          }
+        ],
+        "neg": [],
+        "zero": [
+          {
+            "val": 0.0,
+            "date": "2026-01-04",
+            "rival": "Guadalajara Chivas",
+            "res": "0-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-01-10",
+            "rival": "Puebla",
+            "res": "1-0"
+          },
+          {
+            "val": 0.0,
+            "date": "2026-01-31",
+            "rival": "Mazatlán",
+            "res": "1-0"
+          }
+        ]
+      },
+      "ecg": [
+        {
+          "date": "20-08-04",
+          "val": 5.27,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-14",
+          "val": 9.77,
+          "rival": "Toluca",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "20-08-23",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-06",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "20-09-13",
+          "val": 1.94,
+          "rival": "Mazatlán",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "20-09-20",
+          "val": 4.82,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-04",
+          "val": 7.25,
+          "rival": "Necaxa",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "20-10-31",
+          "val": 9.54,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-01-09",
+          "val": 15.47,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-01-24",
+          "val": 21.15,
+          "rival": "Tigres UANL",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-02-06",
+          "val": 24.08,
+          "rival": "Santos Laguna",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-02-21",
+          "val": 31.08,
+          "rival": "Club America",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-03-02",
+          "val": 33.06,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "21-03-06",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-03",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-04-11",
+          "val": 8.77,
+          "rival": "Leon",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "21-04-25",
+          "val": 11.56,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-05-09",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-05-13",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-01",
+          "val": 0.0,
+          "rival": "FC Juarez",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-08-15",
+          "val": 3.9,
+          "rival": "Club America",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-08-21",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-11",
+          "val": 2.48,
+          "rival": "Monterrey",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "21-09-25",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-09-29",
+          "val": 2.65,
+          "rival": "Puebla",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-10-20",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "21-10-29",
+          "val": 3.38,
+          "rival": "Club Tijuana",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "21-11-05",
+          "val": 0.0,
+          "rival": "Club Queretaro",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "21-11-28",
+          "val": 2.68,
+          "rival": "Monterrey",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-06",
+          "val": 5.52,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "21-12-13",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-01-15",
+          "val": 0.0,
+          "rival": "Atletico San Luis",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "22-02-07",
+          "val": 1.78,
+          "rival": "Santos Laguna",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-02-21",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-03-03",
+          "val": 2.96,
+          "rival": "Pachuca",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-03-21",
+          "val": 5.11,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-08",
+          "val": 7.36,
+          "rival": "Necaxa",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "22-04-15",
+          "val": 10.98,
+          "rival": "Mazatlán",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-05-01",
+          "val": 13.93,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-15",
+          "val": 16.76,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-05-19",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "22-05-27",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "22-07-16",
+          "val": 4.37,
+          "rival": "Cruz Azul",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "22-07-27",
+          "val": 8.67,
+          "rival": "Club Tijuana",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "22-08-05",
+          "val": 10.14,
+          "rival": "Club Queretaro",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-17",
+          "val": 11.73,
+          "rival": "FC Juarez",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "22-08-21",
+          "val": 13.73,
+          "rival": "Puebla",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "22-09-04",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "22-09-11",
+          "val": 5.76,
+          "rival": "Atletico San Luis",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "22-10-02",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-01-13",
+          "val": 1.62,
+          "rival": "Mazatlán",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "23-01-27",
+          "val": 7.22,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-02",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-02-10",
+          "val": 6.62,
+          "rival": "Monterrey",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-02-19",
+          "val": 9.92,
+          "rival": "Tigres UANL",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-02-26",
+          "val": 16.67,
+          "rival": "Club America",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "23-03-11",
+          "val": 19.93,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "23-04-02",
+          "val": 27.43,
+          "rival": "Guadalajara Chivas",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "23-04-15",
+          "val": 30.37,
+          "rival": "Pachuca",
+          "res": "4-1",
+          "lvl": null
+        },
+        {
+          "date": "23-05-12",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "23-07-02",
+          "val": 0.0,
+          "rival": "Cruz Azul",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-08-26",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "23-09-18",
+          "val": 0.0,
+          "rival": "Tigres UANL",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "23-09-29",
+          "val": 7.29,
+          "rival": "Puebla",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "23-10-21",
+          "val": 12.84,
+          "rival": "Mazatlán",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "23-11-02",
+          "val": 17.55,
+          "rival": "Pachuca",
+          "res": "0-2",
+          "lvl": null
+        },
+        {
+          "date": "23-11-11",
+          "val": 0.0,
+          "rival": "Necaxa",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-06",
+          "val": 7.35,
+          "rival": "Santos Laguna",
+          "res": "2-3",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-01-21",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-01-29",
+          "val": 1.24,
+          "rival": "FC Juarez",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-02-05",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "3-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-15",
+          "val": 0.0,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "24-02-18",
+          "val": 2.05,
+          "rival": "Leon",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-03-03",
+          "val": 19.22,
+          "rival": "Club America",
+          "res": "1-5",
+          "lvl": null
+        },
+        {
+          "date": "24-03-17",
+          "val": 26.66,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "24-03-31",
+          "val": 34.71,
+          "rival": "Club Queretaro",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "24-04-15",
+          "val": 36.64,
+          "rival": "Atletico San Luis",
+          "res": "2-1",
+          "lvl": null
+        },
+        {
+          "date": "24-04-28",
+          "val": 39.97,
+          "rival": "Guadalajara Chivas",
+          "res": "0-1",
+          "lvl": null
+        },
+        {
+          "date": "24-07-13",
+          "val": 42.85,
+          "rival": "Tigres UANL",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-07-17",
+          "val": 0.0,
+          "rival": "Santos Laguna",
+          "res": "1-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-08-25",
+          "val": 2.88,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-14",
+          "val": 0.0,
+          "rival": "Pachuca",
+          "res": "2-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-09-21",
+          "val": 2.09,
+          "rival": "Club Queretaro",
+          "res": "0-1",
+          "lvl": 1.57
+        },
+        {
+          "date": "24-10-19",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "0-0",
+          "lvl": 1.5
+        },
+        {
+          "date": "24-10-27",
+          "val": 0.0,
+          "rival": "Club Tijuana",
+          "res": "0-0",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-11-07",
+          "val": 7.7,
+          "rival": "Cruz Azul",
+          "res": "2-2",
+          "lvl": 0.5
+        },
+        {
+          "date": "24-12-23",
+          "val": 11.8,
+          "rival": "Necaxa",
+          "res": "1-2",
+          "lvl": 2.05
+        },
+        {
+          "date": "24-12-28",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": 2.68
+        },
+        {
+          "date": "25-01-03",
+          "val": 2.7,
+          "rival": "Atletico San Luis",
+          "res": "1-1",
+          "lvl": 0.5
+        },
+        {
+          "date": "25-01-19",
+          "val": 7.53,
+          "rival": "Leon",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "25-01-30",
+          "val": 15.01,
+          "rival": "Monterrey",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-02-15",
+          "val": 18.35,
+          "rival": "Puebla",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-02-19",
+          "val": 28.18,
+          "rival": "Necaxa",
+          "res": "0-4",
+          "lvl": null
+        },
+        {
+          "date": "25-03-03",
+          "val": 30.13,
+          "rival": "Atletico San Luis",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-03-16",
+          "val": 41.34,
+          "rival": "Club America",
+          "res": "1-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-05",
+          "val": 44.18,
+          "rival": "FC Juarez",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-04-13",
+          "val": 54.21,
+          "rival": "Toluca",
+          "res": "2-3",
+          "lvl": null
+        },
+        {
+          "date": "25-04-20",
+          "val": 56.31,
+          "rival": "Guadalajara Chivas",
+          "res": "1-1",
+          "lvl": null
+        },
+        {
+          "date": "25-07-20",
+          "val": 65.84,
+          "rival": "Cruz Azul",
+          "res": "3-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-10",
+          "val": 74.92,
+          "rival": "Pachuca",
+          "res": "0-3",
+          "lvl": null
+        },
+        {
+          "date": "25-08-25",
+          "val": 87.77,
+          "rival": "Club America",
+          "res": "2-4",
+          "lvl": null
+        },
+        {
+          "date": "25-09-14",
+          "val": 90.89,
+          "rival": "Santos Laguna",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "25-09-27",
+          "val": 94.62,
+          "rival": "Necaxa",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-10-04",
+          "val": 96.98,
+          "rival": "FC Juarez",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-10-23",
+          "val": 0.0,
+          "rival": "Leon",
+          "res": "2-0",
+          "lvl": null
+        },
+        {
+          "date": "25-11-01",
+          "val": 0.0,
+          "rival": "Toluca",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "25-12-23",
+          "val": 3.8,
+          "rival": "Tepatitlán",
+          "res": "3-2",
+          "lvl": null
+        },
+        {
+          "date": "25-12-27",
+          "val": 5.67,
+          "rival": "Leones Negros UDG",
+          "res": "3-1",
+          "lvl": null
+        },
+        {
+          "date": "25-12-30",
+          "val": 13.02,
+          "rival": "Necaxa",
+          "res": "5-3",
+          "lvl": null
+        },
+        {
+          "date": "26-01-04",
+          "val": 0.0,
+          "rival": "Guadalajara Chivas",
+          "res": "0-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-05",
+          "val": 6.1,
+          "rival": "Monterrey",
+          "res": "1-2",
+          "lvl": null
+        },
+        {
+          "date": "26-01-10",
+          "val": 0.0,
+          "rival": "Puebla",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-01-31",
+          "val": 0.0,
+          "rival": "Mazatlán",
+          "res": "1-0",
+          "lvl": null
+        },
+        {
+          "date": "26-02-08",
+          "val": 5.06,
+          "rival": "U.N.A.M. - Pumas",
+          "res": "2-2",
+          "lvl": null
+        },
+        {
+          "date": "26-02-21",
+          "val": 9.86,
+          "rival": "Atletico San Luis",
+          "res": "3-2",
+          "lvl": null
+        }
+      ]
+    }
+  ],
+  "away_constants": [
+    {
+      "name": "k general",
+      "value": 0,
+      "techo": 0,
+      "pctTecho": 0,
+      "burstZone": false,
+      "burstMin": 5.0,
+      "burstMedian": 0,
+      "inertia": "—",
+      "accel": "+0.00",
+      "totalBursts": 0,
+      "burstFreqMedian": 0,
+      "sinceLastBurst": 0,
+      "burstAmplitude": {
+        "baja": 0,
+        "media": 0,
+        "alta": 0,
+        "extrema": 0
+      },
+      "ml": "flat",
+      "peaks": {
+        "pos": [],
+        "neg": [],
+        "zero": []
+      },
+      "ecg": []
+    },
+    {
+      "name": "k visita",
+      "value": 0,
+      "techo": 0,
+      "pctTecho": 0,
+      "burstZone": false,
+      "burstMin": 5.0,
+      "burstMedian": 0,
+      "inertia": "—",
+      "accel": "+0.00",
+      "totalBursts": 0,
+      "burstFreqMedian": 0,
+      "sinceLastBurst": 0,
+      "burstAmplitude": {
+        "baja": 0,
+        "media": 0,
+        "alta": 0,
+        "extrema": 0
+      },
+      "ml": "flat",
+      "peaks": {
+        "pos": [],
+        "neg": [],
+        "zero": []
+      },
+      "ecg": []
+    },
+    {
+      "name": "kg anotado",
+      "value": 0,
+      "techo": 0,
+      "pctTecho": 0,
+      "burstZone": false,
+      "burstMin": 5.0,
+      "burstMedian": 0,
+      "inertia": "—",
+      "accel": "+0.00",
+      "totalBursts": 0,
+      "burstFreqMedian": 0,
+      "sinceLastBurst": 0,
+      "burstAmplitude": {
+        "baja": 0,
+        "media": 0,
+        "alta": 0,
+        "extrema": 0
+      },
+      "ml": "flat",
+      "peaks": {
+        "pos": [],
+        "neg": [],
+        "zero": []
+      },
+      "ecg": []
+    },
+    {
+      "name": "kg recibido",
+      "value": 0,
+      "techo": 0,
+      "pctTecho": 0,
+      "burstZone": false,
+      "burstMin": 5.0,
+      "burstMedian": 0,
+      "inertia": "—",
+      "accel": "+0.00",
+      "totalBursts": 0,
+      "burstFreqMedian": 0,
+      "sinceLastBurst": 0,
+      "burstAmplitude": {
+        "baja": 0,
+        "media": 0,
+        "alta": 0,
+        "extrema": 0
+      },
+      "ml": "flat",
+      "peaks": {
+        "pos": [],
+        "neg": [],
+        "zero": []
+      },
+      "ecg": []
+    },
+    {
+      "name": "kg visita anotado",
+      "value": 0,
+      "techo": 0,
+      "pctTecho": 0,
+      "burstZone": false,
+      "burstMin": 5.0,
+      "burstMedian": 0,
+      "inertia": "—",
+      "accel": "+0.00",
+      "totalBursts": 0,
+      "burstFreqMedian": 0,
+      "sinceLastBurst": 0,
+      "burstAmplitude": {
+        "baja": 0,
+        "media": 0,
+        "alta": 0,
+        "extrema": 0
+      },
+      "ml": "flat",
+      "peaks": {
+        "pos": [],
+        "neg": [],
+        "zero": []
+      },
+      "ecg": []
+    },
+    {
+      "name": "kg visita recibido",
+      "value": 0,
+      "techo": 0,
+      "pctTecho": 0,
+      "burstZone": false,
+      "burstMin": 5.0,
+      "burstMedian": 0,
+      "inertia": "—",
+      "accel": "+0.00",
+      "totalBursts": 0,
+      "burstFreqMedian": 0,
+      "sinceLastBurst": 0,
+      "burstAmplitude": {
+        "baja": 0,
+        "media": 0,
+        "alta": 0,
+        "extrema": 0
+      },
+      "ml": "flat",
+      "peaks": {
+        "pos": [],
+        "neg": [],
+        "zero": []
+      },
+      "ecg": []
+    }
+  ],
+  "home_goals": {
+    "matches": [
+      {
+        "fixture_id": 1379506,
+        "date": "25-07-27",
+        "rival": "Monterrey",
+        "res": "1-3",
+        "gf": 1,
+        "gc": 3,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1379509,
+        "date": "25-08-10",
+        "rival": "Pachuca",
+        "res": "0-3",
+        "gf": 0,
+        "gc": 3,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1379523,
+        "date": "25-08-17",
+        "rival": "Club Queretaro",
+        "res": "3-3",
+        "gf": 3,
+        "gc": 3,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1379533,
+        "date": "25-08-25",
+        "rival": "Club America",
+        "res": "2-4",
+        "gf": 2,
+        "gc": 4,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1379541,
+        "date": "25-08-31",
+        "rival": "U.N.A.M. - Pumas",
+        "res": "0-1",
+        "gf": 0,
+        "gc": 1,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1379547,
+        "date": "25-09-14",
+        "rival": "Santos Laguna",
+        "res": "2-2",
+        "gf": 2,
+        "gc": 2,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1379556,
+        "date": "25-09-20",
+        "rival": "Mazatlán",
+        "res": "1-1",
+        "gf": 1,
+        "gc": 1,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1379567,
+        "date": "25-09-25",
+        "rival": "Tigres UANL",
+        "res": "0-2",
+        "gf": 0,
+        "gc": 2,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1379573,
+        "date": "25-09-27",
+        "rival": "Necaxa",
+        "res": "3-2",
+        "gf": 3,
+        "gc": 2,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1379582,
+        "date": "25-10-04",
+        "rival": "FC Juarez",
+        "res": "3-1",
+        "gf": 3,
+        "gc": 1,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1379590,
+        "date": "25-10-18",
+        "rival": "Atletico San Luis",
+        "res": "0-2",
+        "gf": 0,
+        "gc": 2,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1379604,
+        "date": "25-10-23",
+        "rival": "Leon",
+        "res": "2-0",
+        "gf": 2,
+        "gc": 0,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1379613,
+        "date": "25-10-26",
+        "rival": "Guadalajara Chivas",
+        "res": "1-4",
+        "gf": 1,
+        "gc": 4,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1379619,
+        "date": "25-11-01",
+        "rival": "Toluca",
+        "res": "0-0",
+        "gf": 0,
+        "gc": 0,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1379626,
+        "date": "25-11-08",
+        "rival": "Club Tijuana",
+        "res": "0-2",
+        "gf": 0,
+        "gc": 2,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1501340,
+        "date": "25-12-23",
+        "rival": "Tepatitlán",
+        "res": "3-2",
+        "gf": 3,
+        "gc": 2,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1501345,
+        "date": "25-12-27",
+        "rival": "Leones Negros UDG",
+        "res": "3-1",
+        "gf": 3,
+        "gc": 1,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1501350,
+        "date": "25-12-30",
+        "rival": "Necaxa",
+        "res": "5-3",
+        "gf": 5,
+        "gc": 3,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1501850,
+        "date": "26-01-04",
+        "rival": "Guadalajara Chivas",
+        "res": "0-0",
+        "gf": 0,
+        "gc": 0,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1502462,
+        "date": "26-01-05",
+        "rival": "Monterrey",
+        "res": "1-2",
+        "gf": 1,
+        "gc": 2,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1491791,
+        "date": "26-01-10",
+        "rival": "Puebla",
+        "res": "1-0",
+        "gf": 1,
+        "gc": 0,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1491803,
+        "date": "26-01-14",
+        "rival": "Cruz Azul",
+        "res": "0-2",
+        "gf": 0,
+        "gc": 2,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1491811,
+        "date": "26-01-17",
+        "rival": "Necaxa",
+        "res": "1-0",
+        "gf": 1,
+        "gc": 0,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1492493,
+        "date": "26-01-31",
+        "rival": "Mazatlán",
+        "res": "1-0",
+        "gf": 1,
+        "gc": 0,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1492505,
+        "date": "26-02-08",
+        "rival": "U.N.A.M. - Pumas",
+        "res": "2-2",
+        "gf": 2,
+        "gc": 2,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1492513,
+        "date": "26-02-14",
+        "rival": "Pachuca",
+        "res": "1-3",
+        "gf": 1,
+        "gc": 3,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1492519,
+        "date": "26-02-21",
+        "rival": "Atletico San Luis",
+        "res": "3-2",
+        "gf": 3,
+        "gc": 2,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1492529,
+        "date": "26-02-28",
+        "rival": "FC Juarez",
+        "res": "1-3",
+        "gf": 1,
+        "gc": 3,
+        "is_home": false
+      },
+      {
+        "fixture_id": 1492541,
+        "date": "26-03-05",
+        "rival": "Club Tijuana",
+        "res": "2-1",
+        "gf": 2,
+        "gc": 1,
+        "is_home": true
+      },
+      {
+        "fixture_id": 1492548,
+        "date": "26-03-08",
+        "rival": "Guadalajara Chivas",
+        "res": "1-2",
+        "gf": 1,
+        "gc": 2,
+        "is_home": true
+      }
+    ],
+    "gfDist": [
+      {
+        "g": 0,
+        "n": 8,
+        "pct": 27
+      },
+      {
+        "g": 1,
+        "n": 10,
+        "pct": 33
+      },
+      {
+        "g": 2,
+        "n": 5,
+        "pct": 17
+      },
+      {
+        "g": 3,
+        "n": 6,
+        "pct": 20
+      },
+      {
+        "g": 5,
+        "n": 1,
+        "pct": 3
+      }
+    ],
+    "gcDist": [
+      {
+        "g": 0,
+        "n": 6,
+        "pct": 20
+      },
+      {
+        "g": 1,
+        "n": 5,
+        "pct": 17
+      },
+      {
+        "g": 2,
+        "n": 11,
+        "pct": 37
+      },
+      {
+        "g": 3,
+        "n": 6,
+        "pct": 20
+      },
+      {
+        "g": 4,
+        "n": 2,
+        "pct": 7
+      }
+    ],
+    "diffDist": [
+      {
+        "d": -3,
+        "n": 2,
+        "pct": 7
+      },
+      {
+        "d": -2,
+        "n": 8,
+        "pct": 27
+      },
+      {
+        "d": -1,
+        "n": 3,
+        "pct": 10
+      },
+      {
+        "d": 0,
+        "n": 6,
+        "pct": 20
+      },
+      {
+        "d": 1,
+        "n": 7,
+        "pct": 23
+      },
+      {
+        "d": 2,
+        "n": 4,
+        "pct": 13
+      }
+    ],
+    "gfMean": 1.43,
+    "gfMedian": 1.0,
+    "gcMean": 1.77,
+    "gcMedian": 2.0,
+    "diffMean": -0.33,
+    "ciclo": "PRODUCTIVO"
+  },
+  "away_goals": {
+    "matches": [],
+    "gfDist": [],
+    "gcDist": [],
+    "diffDist": [],
+    "gfMean": 0,
+    "gfMedian": 0,
+    "gcMean": 0,
+    "gcMedian": 0,
+    "diffMean": 0,
+    "ciclo": "—"
+  },
+  "context_bar": [],
+  "decisions": []
+}
