@@ -10,3 +10,6 @@ env/
 *.log
 .vscode/
 .idea/
+demo_data/
+__pycache__/
+*.pyc
