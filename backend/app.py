@@ -430,6 +430,80 @@ def analisis_prepartido(fixture_id: int):
     }
 
 
+@app.get(API + "/equipos/{equipo_id}/stats")
+def equipo_stats(equipo_id: int):
+    """Stats de temporada calculadas de los fixtures terminados (siempre al día).
+    xG/posesión/tiros/córners quedan null en v0 (no se derivan de fixtures)."""
+    team = db.query_one("sad", "SELECT id, name FROM teams WHERE id=?", (equipo_id,))
+    if not team:
+        raise HTTPException(404, f"equipo {equipo_id} no existe")
+    rows = db.query(
+        "sad",
+        """SELECT home_team_id, goals_home, goals_away FROM fixtures
+           WHERE (home_team_id=? OR away_team_id=?)
+             AND status_long='Match Finished'
+             AND goals_home IS NOT NULL AND goals_away IS NOT NULL
+           ORDER BY date DESC""",
+        (equipo_id, equipo_id),
+    )
+    pts = gf_tot = gc_tot = 0
+    forma = []
+    for i, r in enumerate(rows):
+        gf, ga = (r["goals_home"], r["goals_away"]) if r["home_team_id"] == equipo_id else (r["goals_away"], r["goals_home"])
+        res = "W" if gf > ga else "D" if gf == ga else "L"
+        pts += 3 if res == "W" else 1 if res == "D" else 0
+        gf_tot += gf
+        gc_tot += ga
+        if i < RECENT_WINDOW:
+            forma.append(res)  # más reciente primero
+    pj = len(rows)
+    return {
+        "equipoId": equipo_id,
+        "nombre": team["name"],
+        "partidosJugados": pj,
+        "puntos": pts,
+        "forma": forma,
+        "golesFavorProm": round(gf_tot / pj, 2) if pj else 0,
+        "golesContraProm": round(gc_tot / pj, 2) if pj else 0,
+        "xgProm": None,
+        "posesionProm": None,
+        "tirosPuertaProm": None,
+        "cornersProm": None,
+    }
+
+
+@app.get(API + "/ligas/{liga_id}/standings")
+def standings(liga_id: int, temporada: int | None = None):
+    """Tabla de posiciones calculada de los fixtures terminados de la liga."""
+    if temporada is None:
+        row = db.query_one("sad", "SELECT MAX(league_season) AS s FROM fixtures WHERE league_id=?", (liga_id,))
+        temporada = row["s"] if row and row["s"] is not None else 0
+    rows = db.query(
+        "sad",
+        """SELECT f.home_team_id, f.away_team_id, f.goals_home, f.goals_away,
+                  ht.name AS home_name, at.name AS away_name
+           FROM fixtures f
+           JOIN teams ht ON ht.id=f.home_team_id JOIN teams at ON at.id=f.away_team_id
+           WHERE f.league_id=? AND f.league_season=? AND f.status_long='Match Finished'
+             AND f.goals_home IS NOT NULL AND f.goals_away IS NOT NULL""",
+        (liga_id, temporada),
+    )
+    acc: dict[int, dict] = {}
+
+    def upsert(tid, nombre, gf, ga):
+        e = acc.setdefault(tid, {"equipoId": tid, "nombre": nombre, "puntos": 0, "partidosJugados": 0, "golesFavor": 0, "golesContra": 0})
+        e["partidosJugados"] += 1
+        e["golesFavor"] += gf
+        e["golesContra"] += ga
+        e["puntos"] += 3 if gf > ga else 1 if gf == ga else 0
+
+    for r in rows:
+        upsert(r["home_team_id"], r["home_name"], r["goals_home"], r["goals_away"])
+        upsert(r["away_team_id"], r["away_name"], r["goals_away"], r["goals_home"])
+    tabla = sorted(acc.values(), key=lambda e: (-e["puntos"], -(e["golesFavor"] - e["golesContra"]), -e["golesFavor"], e["nombre"]))
+    return [{"posicion": i + 1, **e} for i, e in enumerate(tabla)]
+
+
 @app.get(API + "/cuotas/{fixture_id}")
 def cuotas(fixture_id: int):
     rows = db.query(
