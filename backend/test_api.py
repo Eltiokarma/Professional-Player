@@ -87,6 +87,22 @@ def main():
         an["niveles"]["local"]["binEtiqueta"] and an["constantes"]["local"] and an["prediccion"]["fixtureId"] == vivo["id"] and "recibe a" in an["resumen"],
     )
 
+    # /equipos/{id}/stats — calculadas de fixtures
+    st = c.get(A + f"/equipos/{betis}/stats").json()
+    check("stats: 40 PJ y forma de 5", st["partidosJugados"] == 40 and len(st["forma"]) == 5, st)
+    check("stats: promedios plausibles", 0 < st["golesFavorProm"] < 4 and 0 < st["golesContraProm"] < 4, st)
+    check("stats: puntos coherentes (0–120)", 0 <= st["puntos"] <= 3 * st["partidosJugados"])
+    check("stats: xG/posesión null en v0", st["xgProm"] is None and st["posesionProm"] is None)
+    check("/equipos/999999/stats → 404", c.get(A + "/equipos/999999/stats").status_code == 404)
+
+    # /ligas/{id}/standings
+    tb = c.get(A + "/ligas/140/standings").json()
+    check("standings: 6 equipos ordenados", len(tb) == 6 and tb[0]["posicion"] == 1 and tb[-1]["posicion"] == 6, [t["nombre"] for t in tb])
+    check("standings: orden por puntos desc", all(tb[i]["puntos"] >= tb[i + 1]["puntos"] for i in range(5)))
+    check("standings: Real Madrid arriba de Sevilla", next(t["posicion"] for t in tb if "Madrid" in t["nombre"]) < next(t["posicion"] for t in tb if "Sevilla" in t["nombre"]))
+    suma_pj = sum(t["partidosJugados"] for t in tb)
+    check("standings: 240 participaciones (120 partidos × 2)", suma_pj == 240, suma_pj)
+
     # /cuotas — mapeo API-Football → contrato y media entre bookmakers
     q = c.get(A + f"/cuotas/{vivo['id']}").json()
     mercados = {r["mercado"] for r in q}

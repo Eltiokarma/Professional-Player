@@ -18,6 +18,8 @@ de los datos.
 | `GET /api/v1/predicciones/{fixtureId}` | Ley de Regresión al Nivel §5 (μ = 1.110 + 0.686·nivel − 0.669·rival + 0.422·localía) |
 | `GET /api/v1/analisis-prepartido/{fixtureId}` | composición de todo lo anterior |
 | `GET /api/v1/cuotas/{fixtureId}` | tabla `odds` de `sad.db`, mapeada a mercados del contrato y promediada entre bookmakers |
+| `GET /api/v1/equipos/{equipoId}/stats` | forma (últ. 5), PJ, puntos y promedios de goles calculados de fixtures; xG/posesión/tiros/córners `null` en v0 |
+| `GET /api/v1/ligas/{ligaId}/standings[?temporada]` | tabla de posiciones calculada de los fixtures terminados |
 
 ## Correr con tus DBs reales
 
